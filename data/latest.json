@@ -1,0 +1,2303 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-20T23:57:40Z",
+  "reserve_address": "0x9A709B7B69EA42D5eeb1ceBC48674C69E1569eC6",
+  "link_token_address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+  "market": {
+    "link_usd": 12.32,
+    "market_cap_usd": 9450031699.0,
+    "circulating_supply_link": 766849970.424884,
+    "source": "CoinGecko",
+    "quoted_at": "2026-10-20T23:57:39Z"
+  },
+  "reserve": {
+    "balance_link": 6293843.357358364,
+    "net_transfer_link": 6293843.357358362,
+    "reconciled": true,
+    "reconciliation_difference_link": 2e-09,
+    "usd_value": 77540150.16,
+    "market_cap_share_pct": 0.8205,
+    "supply_share_pct": 0.8207
+  },
+  "history": {
+    "start": "2025-07-31",
+    "event_count": 96,
+    "tx_count": 96,
+    "unpriced_inflow_events": 0,
+    "complete": true
+  },
+  "last_deposit": {
+    "tx_hash": "0x0e0e517228444d329f69926445bc1552f68b0ae607692eaa0173945692ff0386",
+    "timestamp": "2026-10-15T15:36:35Z",
+    "direction": "in",
+    "link": 89161.564748897,
+    "usd_estimate": 1115638.1,
+    "entry_count": 1
+  },
+  "events": [
+    {
+      "id": "0x986aacc9f3ce0e77f50680b5be0a46a8859e4a9ecefaf4eeb4006250fce2b19c:112",
+      "tx_hash": "0x986aacc9f3ce0e77f50680b5be0a46a8859e4a9ecefaf4eeb4006250fce2b19c",
+      "log_index": 112,
+      "timestamp": "2025-07-31T14:00:23Z",
+      "direction": "in",
+      "link": 1.0,
+      "usd_price_at_transfer": 17.65,
+      "usd_estimate": 17.65
+    },
+    {
+      "id": "0x18680cc14609796fe859db13686d676a373ccf12f692836055ff95dd6aa25a0a:767",
+      "tx_hash": "0x18680cc14609796fe859db13686d676a373ccf12f692836055ff95dd6aa25a0a",
+      "log_index": 767,
+      "timestamp": "2025-08-02T19:02:47Z",
+      "direction": "out",
+      "link": 1.0,
+      "usd_price_at_transfer": 15.48,
+      "usd_estimate": 15.48
+    },
+    {
+      "id": "0xe705e663b55d7abc0b40882ad96b15b4cdae9c5e9642c78d59e9e0bf8e88df42:679",
+      "tx_hash": "0xe705e663b55d7abc0b40882ad96b15b4cdae9c5e9642c78d59e9e0bf8e88df42",
+      "log_index": 679,
+      "timestamp": "2025-08-07T07:34:47Z",
+      "direction": "in",
+      "link": 1.0,
+      "usd_price_at_transfer": 16.8,
+      "usd_estimate": 16.8
+    },
+    {
+      "id": "0x9f9696ea709d445ca51c2c79bb8e63d392d29cc4c58228790f80cce77684a706:687",
+      "tx_hash": "0x9f9696ea709d445ca51c2c79bb8e63d392d29cc4c58228790f80cce77684a706",
+      "log_index": 687,
+      "timestamp": "2025-08-07T10:14:59Z",
+      "direction": "in",
+      "link": 65538.89816892,
+      "usd_price_at_transfer": 17.04,
+      "usd_estimate": 1116782.82
+    },
+    {
+      "id": "0xbb2f5bb7dfc23a13785ddc72dde9c405150a9ac32bf4b76391893fbfad82e27a:189",
+      "tx_hash": "0xbb2f5bb7dfc23a13785ddc72dde9c405150a9ac32bf4b76391893fbfad82e27a",
+      "log_index": 189,
+      "timestamp": "2025-08-07T19:03:59Z",
+      "direction": "in",
+      "link": 0.5,
+      "usd_price_at_transfer": 17.98,
+      "usd_estimate": 8.99
+    },
+    {
+      "id": "0x29aeb296d0f987383e47b0312d8db12b25a85b6b6d5c59e169f334960fe1fcef:318",
+      "tx_hash": "0x29aeb296d0f987383e47b0312d8db12b25a85b6b6d5c59e169f334960fe1fcef",
+      "log_index": 318,
+      "timestamp": "2025-08-07T19:19:23Z",
+      "direction": "in",
+      "link": 1.0,
+      "usd_price_at_transfer": 17.98,
+      "usd_estimate": 17.98
+    },
+    {
+      "id": "0x428aa6947502cac2730eccd2a2cb30e3770b220d0666f4ddfbb4ebeece604ba3:101",
+      "tx_hash": "0x428aa6947502cac2730eccd2a2cb30e3770b220d0666f4ddfbb4ebeece604ba3",
+      "log_index": 101,
+      "timestamp": "2025-08-07T19:55:59Z",
+      "direction": "in",
+      "link": 1.0,
+      "usd_price_at_transfer": 18.23,
+      "usd_estimate": 18.23
+    },
+    {
+      "id": "0x795316eb44aa4aec0a7a413281aabeeeda9f6b384993619132fd49a5a515193d:375",
+      "tx_hash": "0x795316eb44aa4aec0a7a413281aabeeeda9f6b384993619132fd49a5a515193d",
+      "log_index": 375,
+      "timestamp": "2025-08-07T20:58:35Z",
+      "direction": "in",
+      "link": 0.069,
+      "usd_price_at_transfer": 18.46,
+      "usd_estimate": 1.27
+    },
+    {
+      "id": "0x447bfbf662e1460fd84a0d7d2f78babb8339cbed58a6530b18f12055ceefe999:340",
+      "tx_hash": "0x447bfbf662e1460fd84a0d7d2f78babb8339cbed58a6530b18f12055ceefe999",
+      "log_index": 340,
+      "timestamp": "2025-08-07T21:00:59Z",
+      "direction": "in",
+      "link": 0.101,
+      "usd_price_at_transfer": 18.46,
+      "usd_estimate": 1.86
+    },
+    {
+      "id": "0x749ff50a86e96ff8d86d51244ab3c778bea9b94c882b127a38546f1b4a798e77:215",
+      "tx_hash": "0x749ff50a86e96ff8d86d51244ab3c778bea9b94c882b127a38546f1b4a798e77",
+      "log_index": 215,
+      "timestamp": "2025-08-07T21:15:11Z",
+      "direction": "in",
+      "link": 0.7777777,
+      "usd_price_at_transfer": 18.381552,
+      "usd_estimate": 14.3
+    },
+    {
+      "id": "0xbba1fe41a3e91bd7e4469cf67cb865ca3a0572f615d0b15b1c1fae901b816a0a:941",
+      "tx_hash": "0xbba1fe41a3e91bd7e4469cf67cb865ca3a0572f615d0b15b1c1fae901b816a0a",
+      "log_index": 941,
+      "timestamp": "2025-08-08T02:46:59Z",
+      "direction": "in",
+      "link": 0.08062018,
+      "usd_price_at_transfer": 18.59,
+      "usd_estimate": 1.5
+    },
+    {
+      "id": "0x89d77c01ebf7e0823245a357b98361d36d4529f61501b685762d0fa5f7344713:141",
+      "tx_hash": "0x89d77c01ebf7e0823245a357b98361d36d4529f61501b685762d0fa5f7344713",
+      "log_index": 141,
+      "timestamp": "2025-08-08T12:16:23Z",
+      "direction": "in",
+      "link": 0.25860508,
+      "usd_price_at_transfer": 19.36,
+      "usd_estimate": 5.01
+    },
+    {
+      "id": "0x4911b3c6773aef2ce54e5dcead63496c45a28b1ddb950051596646c8bf296b9a:295",
+      "tx_hash": "0x4911b3c6773aef2ce54e5dcead63496c45a28b1ddb950051596646c8bf296b9a",
+      "log_index": 295,
+      "timestamp": "2025-08-08T14:16:11Z",
+      "direction": "in",
+      "link": 0.6942,
+      "usd_price_at_transfer": 19.86,
+      "usd_estimate": 13.79
+    },
+    {
+      "id": "0xae3a0372a2e1fba4d9a0891338ab44601bd0d316f289925f977f21c633fb947d:61",
+      "tx_hash": "0xae3a0372a2e1fba4d9a0891338ab44601bd0d316f289925f977f21c633fb947d",
+      "log_index": 61,
+      "timestamp": "2025-08-08T14:52:47Z",
+      "direction": "in",
+      "link": 0.77777777,
+      "usd_price_at_transfer": 19.49,
+      "usd_estimate": 15.16
+    },
+    {
+      "id": "0x619682919991a04fb946c7b1d2c748d43f9d5d9a8e63aa2b814e86b4ed5988d6:438",
+      "tx_hash": "0x619682919991a04fb946c7b1d2c748d43f9d5d9a8e63aa2b814e86b4ed5988d6",
+      "log_index": 438,
+      "timestamp": "2025-08-08T17:28:11Z",
+      "direction": "in",
+      "link": 0.0777,
+      "usd_price_at_transfer": 19.23,
+      "usd_estimate": 1.49
+    },
+    {
+      "id": "0x95524838d18545d931d421d4dea36b8152820211601391fa27f8d9c85397cfbb:71",
+      "tx_hash": "0x95524838d18545d931d421d4dea36b8152820211601391fa27f8d9c85397cfbb",
+      "log_index": 71,
+      "timestamp": "2025-08-08T20:51:11Z",
+      "direction": "in",
+      "link": 1.02046023,
+      "usd_price_at_transfer": 19.59,
+      "usd_estimate": 19.99
+    },
+    {
+      "id": "0xb69df1ab64ba3279eea4e2decad41ac667e0d94f072f9e883995e371f060fefe:91",
+      "tx_hash": "0xb69df1ab64ba3279eea4e2decad41ac667e0d94f072f9e883995e371f060fefe",
+      "log_index": 91,
+      "timestamp": "2025-08-08T20:59:11Z",
+      "direction": "in",
+      "link": 0.777,
+      "usd_price_at_transfer": 19.6,
+      "usd_estimate": 15.23
+    },
+    {
+      "id": "0x1cc0405326eaa23a08bfa1e7b6e34446fb0120bc41fedd8d1e7e80895098a8e4:128",
+      "tx_hash": "0x1cc0405326eaa23a08bfa1e7b6e34446fb0120bc41fedd8d1e7e80895098a8e4",
+      "log_index": 128,
+      "timestamp": "2025-08-09T00:37:35Z",
+      "direction": "in",
+      "link": 0.77777777,
+      "usd_price_at_transfer": 19.86,
+      "usd_estimate": 15.45
+    },
+    {
+      "id": "0x23114df40b39ac780efa01180dc9f272636e86ca5cbde73d171489aae88d6beb:228",
+      "tx_hash": "0x23114df40b39ac780efa01180dc9f272636e86ca5cbde73d171489aae88d6beb",
+      "log_index": 228,
+      "timestamp": "2025-08-09T01:55:47Z",
+      "direction": "in",
+      "link": 1.77777777,
+      "usd_price_at_transfer": 20.21,
+      "usd_estimate": 35.93
+    },
+    {
+      "id": "0x447322eca34ee513fad5f167e1e06bb1f7d4263cf68028ae4fc64d71d8cc67b2:244",
+      "tx_hash": "0x447322eca34ee513fad5f167e1e06bb1f7d4263cf68028ae4fc64d71d8cc67b2",
+      "log_index": 244,
+      "timestamp": "2025-08-09T16:52:35Z",
+      "direction": "in",
+      "link": 0.07777777,
+      "usd_price_at_transfer": 21.17,
+      "usd_estimate": 1.65
+    },
+    {
+      "id": "0x5537bee58f672a7b8dcca8c4400136108159372401edcc3ab35c0c2aac193100:944",
+      "tx_hash": "0x5537bee58f672a7b8dcca8c4400136108159372401edcc3ab35c0c2aac193100",
+      "log_index": 944,
+      "timestamp": "2025-08-12T21:41:23Z",
+      "direction": "in",
+      "link": 0.77,
+      "usd_price_at_transfer": 23.37,
+      "usd_estimate": 17.99
+    },
+    {
+      "id": "0xd189eee0a14f83ef8ca855e206bb6615f130545094e231d2a73d12a5b248ff2f:693",
+      "tx_hash": "0xd189eee0a14f83ef8ca855e206bb6615f130545094e231d2a73d12a5b248ff2f",
+      "log_index": 693,
+      "timestamp": "2025-08-12T23:08:11Z",
+      "direction": "in",
+      "link": 1.488,
+      "usd_price_at_transfer": 23.3,
+      "usd_estimate": 34.67
+    },
+    {
+      "id": "0x2f9bb6c7359644d66cee55c4702b535ecb71c43625404e107bd5ccf4921f90e9:545",
+      "tx_hash": "0x2f9bb6c7359644d66cee55c4702b535ecb71c43625404e107bd5ccf4921f90e9",
+      "log_index": 545,
+      "timestamp": "2025-08-14T11:49:23Z",
+      "direction": "in",
+      "link": 44109.76,
+      "usd_price_at_transfer": 23.33,
+      "usd_estimate": 1029080.7
+    },
+    {
+      "id": "0x67d67661d776caa96f57effff15d8a54a46a9149b0ea8fefacead3eb068b9b1b:193",
+      "tx_hash": "0x67d67661d776caa96f57effff15d8a54a46a9149b0ea8fefacead3eb068b9b1b",
+      "log_index": 193,
+      "timestamp": "2025-08-15T08:48:11Z",
+      "direction": "in",
+      "link": 0.5,
+      "usd_price_at_transfer": 22.64,
+      "usd_estimate": 11.32
+    },
+    {
+      "id": "0x888006ab6e52d879518d5ebe5da14c6a84b04a35f274c7580d9d1a452719ee81:99",
+      "tx_hash": "0x888006ab6e52d879518d5ebe5da14c6a84b04a35f274c7580d9d1a452719ee81",
+      "log_index": 99,
+      "timestamp": "2025-08-16T09:12:59Z",
+      "direction": "in",
+      "link": 0.5,
+      "usd_price_at_transfer": 21.83,
+      "usd_estimate": 10.91
+    },
+    {
+      "id": "0xc4560186fe1811c3c6d18c047a744ff75c96151540f24c24a6405d401abc0d68:509",
+      "tx_hash": "0xc4560186fe1811c3c6d18c047a744ff75c96151540f24c24a6405d401abc0d68",
+      "log_index": 509,
+      "timestamp": "2025-08-17T21:53:47Z",
+      "direction": "in",
+      "link": 0.5,
+      "usd_price_at_transfer": 25.72,
+      "usd_estimate": 12.86
+    },
+    {
+      "id": "0xa2afc7dbade19feb3b0eec78ae3cac82952f92d8fed1d384df641f61458ee3fd:180",
+      "tx_hash": "0xa2afc7dbade19feb3b0eec78ae3cac82952f92d8fed1d384df641f61458ee3fd",
+      "log_index": 180,
+      "timestamp": "2025-08-18T21:06:11Z",
+      "direction": "in",
+      "link": 0.5,
+      "usd_price_at_transfer": 25.25,
+      "usd_estimate": 12.62
+    },
+    {
+      "id": "0xf8467748d2412ada513479faa11511d14a993eb9dfd8f1c3bfb0ab198d5e2fa3:250",
+      "tx_hash": "0xf8467748d2412ada513479faa11511d14a993eb9dfd8f1c3bfb0ab198d5e2fa3",
+      "log_index": 250,
+      "timestamp": "2025-08-20T03:23:47Z",
+      "direction": "in",
+      "link": 0.5,
+      "usd_price_at_transfer": 23.83,
+      "usd_estimate": 11.91
+    },
+    {
+      "id": "0x842c8e9c0be90f361e4eb7df3cc22a15b65c2415a598622f0ed235b334efab84:784",
+      "tx_hash": "0x842c8e9c0be90f361e4eb7df3cc22a15b65c2415a598622f0ed235b334efab84",
+      "log_index": 784,
+      "timestamp": "2025-08-21T15:33:23Z",
+      "direction": "in",
+      "link": 41105.842571295,
+      "usd_price_at_transfer": 25.3,
+      "usd_estimate": 1039977.82
+    },
+    {
+      "id": "0x60ae467137cb03b4a8f14a2ca458dd0b49e6863fc3f4b57c27fedaa7bda3d8f0:130",
+      "tx_hash": "0x60ae467137cb03b4a8f14a2ca458dd0b49e6863fc3f4b57c27fedaa7bda3d8f0",
+      "log_index": 130,
+      "timestamp": "2025-08-21T17:03:47Z",
+      "direction": "in",
+      "link": 0.28226376,
+      "usd_price_at_transfer": 24.9,
+      "usd_estimate": 7.03
+    },
+    {
+      "id": "0x5ad4a10e7854db3ff18edb56617817563a9c36978d16413326ae98eaf0d0376d:227",
+      "tx_hash": "0x5ad4a10e7854db3ff18edb56617817563a9c36978d16413326ae98eaf0d0376d",
+      "log_index": 227,
+      "timestamp": "2025-08-21T17:06:11Z",
+      "direction": "in",
+      "link": 7.00439818,
+      "usd_price_at_transfer": 24.87,
+      "usd_estimate": 174.2
+    },
+    {
+      "id": "0x78cf8d08af7903ee532deeb16dbe050e049042eb72b42ab2092fac3799df73bc:166",
+      "tx_hash": "0x78cf8d08af7903ee532deeb16dbe050e049042eb72b42ab2092fac3799df73bc",
+      "log_index": 166,
+      "timestamp": "2025-08-21T19:05:35Z",
+      "direction": "in",
+      "link": 0.464901347,
+      "usd_price_at_transfer": 25.06,
+      "usd_estimate": 11.65
+    },
+    {
+      "id": "0x1dba1cbdadff051d57fbe78dc7c2716373c4ea072949b46bb7fcfe7bdf5aa955:562",
+      "tx_hash": "0x1dba1cbdadff051d57fbe78dc7c2716373c4ea072949b46bb7fcfe7bdf5aa955",
+      "log_index": 562,
+      "timestamp": "2025-08-28T15:58:23Z",
+      "direction": "in",
+      "link": 42298.222640916,
+      "usd_price_at_transfer": 24.74,
+      "usd_estimate": 1046458.03
+    },
+    {
+      "id": "0x3ccd880b29d59ca5e03fffed86501b852d43bfa02e3acfecd79a6a9c3b8e66c0:1643",
+      "tx_hash": "0x3ccd880b29d59ca5e03fffed86501b852d43bfa02e3acfecd79a6a9c3b8e66c0",
+      "log_index": 1643,
+      "timestamp": "2025-09-04T16:02:59Z",
+      "direction": "in",
+      "link": 43937.572315502,
+      "usd_price_at_transfer": 22.48,
+      "usd_estimate": 987716.63
+    },
+    {
+      "id": "0x623f596f48bf5a019f9932ecdc99a3cf03dea85b0cfe05672a8456de68b84197:99",
+      "tx_hash": "0x623f596f48bf5a019f9932ecdc99a3cf03dea85b0cfe05672a8456de68b84197",
+      "log_index": 99,
+      "timestamp": "2025-09-04T16:12:11Z",
+      "direction": "in",
+      "link": 0.5,
+      "usd_price_at_transfer": 22.49,
+      "usd_estimate": 11.24
+    },
+    {
+      "id": "0xb7f1c84b4576b60a4fbd6d7ac2350ed9ffb5ecf5bd430f1d3bfee40ae9ce9c86:814",
+      "tx_hash": "0xb7f1c84b4576b60a4fbd6d7ac2350ed9ffb5ecf5bd430f1d3bfee40ae9ce9c86",
+      "log_index": 814,
+      "timestamp": "2025-09-11T15:16:23Z",
+      "direction": "in",
+      "link": 43034.626453989,
+      "usd_price_at_transfer": 23.58,
+      "usd_estimate": 1014756.49
+    },
+    {
+      "id": "0x425f0662080d52cfe381634ca672ee7b53412e5017f68126039b862efb9486ce:691",
+      "tx_hash": "0x425f0662080d52cfe381634ca672ee7b53412e5017f68126039b862efb9486ce",
+      "log_index": 691,
+      "timestamp": "2025-09-18T15:33:35Z",
+      "direction": "in",
+      "link": 43067.706911766,
+      "usd_price_at_transfer": 24.46,
+      "usd_estimate": 1053436.11
+    },
+    {
+      "id": "0x03d08f6b1a9372364e910853289b32b6cddd92de4c71e6fe563d7231cf7eefb9:1534",
+      "tx_hash": "0x03d08f6b1a9372364e910853289b32b6cddd92de4c71e6fe563d7231cf7eefb9",
+      "log_index": 1534,
+      "timestamp": "2025-09-24T03:06:47Z",
+      "direction": "in",
+      "link": 1e-05,
+      "usd_price_at_transfer": 21.53,
+      "usd_estimate": 0.0
+    },
+    {
+      "id": "0xc2075a6affaee13ea72cd67c9fbe575d5fa3889aa9e1eee85c0fce851ecb3400:433",
+      "tx_hash": "0xc2075a6affaee13ea72cd67c9fbe575d5fa3889aa9e1eee85c0fce851ecb3400",
+      "log_index": 433,
+      "timestamp": "2025-09-25T15:32:47Z",
+      "direction": "in",
+      "link": 47903.088899703,
+      "usd_price_at_transfer": 20.82,
+      "usd_estimate": 997342.31
+    },
+    {
+      "id": "0xc246b24e06adf4747a119b07973be3b40f21d7cd6668e296561c2d4b52d272b4:569",
+      "tx_hash": "0xc246b24e06adf4747a119b07973be3b40f21d7cd6668e296561c2d4b52d272b4",
+      "log_index": 569,
+      "timestamp": "2025-10-02T15:32:35Z",
+      "direction": "in",
+      "link": 46441.678203753,
+      "usd_price_at_transfer": 22.245982,
+      "usd_estimate": 1033140.75
+    },
+    {
+      "id": "0x0df1ee3e290c0bf014ac6ec6cf1305f9e7f425707a507c1dd0ca306ccdaf06d0:182",
+      "tx_hash": "0x0df1ee3e290c0bf014ac6ec6cf1305f9e7f425707a507c1dd0ca306ccdaf06d0",
+      "log_index": 182,
+      "timestamp": "2025-10-09T15:32:47Z",
+      "direction": "in",
+      "link": 45729.016048809,
+      "usd_price_at_transfer": 21.48741,
+      "usd_estimate": 982598.1
+    },
+    {
+      "id": "0xa9d7112a4e350f3c3648f89717ee5d043ab377f73b5166c27acbad7bfc1d5f35:344",
+      "tx_hash": "0xa9d7112a4e350f3c3648f89717ee5d043ab377f73b5166c27acbad7bfc1d5f35",
+      "log_index": 344,
+      "timestamp": "2025-10-16T15:34:59Z",
+      "direction": "in",
+      "link": 59968.587473603,
+      "usd_price_at_transfer": 17.974625,
+      "usd_estimate": 1077912.9
+    },
+    {
+      "id": "0xa8b8edca59c355a5996180f94712048e93b832b78d00d94ba88004cc551877e6:1223",
+      "tx_hash": "0xa8b8edca59c355a5996180f94712048e93b832b78d00d94ba88004cc551877e6",
+      "log_index": 1223,
+      "timestamp": "2025-10-23T15:33:59Z",
+      "direction": "in",
+      "link": 63481.888720501,
+      "usd_price_at_transfer": 17.427985,
+      "usd_estimate": 1106361.4
+    },
+    {
+      "id": "0x916326b32e88a23331a9cb562eb6ac72cd327596a01cb257966dea9b8afb9d14:424",
+      "tx_hash": "0x916326b32e88a23331a9cb562eb6ac72cd327596a01cb257966dea9b8afb9d14",
+      "log_index": 424,
+      "timestamp": "2025-10-30T15:30:59Z",
+      "direction": "in",
+      "link": 64445.23730118,
+      "usd_price_at_transfer": 17.024302,
+      "usd_estimate": 1097135.21
+    },
+    {
+      "id": "0xd2516f5456e349040f1fba4f8089a0f509d585c24ff640c1a4e2e5c3e6b22484:922",
+      "tx_hash": "0xd2516f5456e349040f1fba4f8089a0f509d585c24ff640c1a4e2e5c3e6b22484",
+      "log_index": 922,
+      "timestamp": "2025-11-06T16:28:59Z",
+      "direction": "in",
+      "link": 78252.511084367,
+      "usd_price_at_transfer": 14.447332,
+      "usd_estimate": 1130540.04
+    },
+    {
+      "id": "0xebb7dceb5f0c9e3295cf7432818c6118cd18f84233ef7bcf54d39f5ac505c564:625",
+      "tx_hash": "0xebb7dceb5f0c9e3295cf7432818c6118cd18f84233ef7bcf54d39f5ac505c564",
+      "log_index": 625,
+      "timestamp": "2025-11-13T16:35:35Z",
+      "direction": "in",
+      "link": 74049.242718878,
+      "usd_price_at_transfer": 15.177371,
+      "usd_estimate": 1123872.85
+    },
+    {
+      "id": "0xd37ddb38ad7048bcbe7c171af58ba161ebd2f7b04cbc235b8682bf1093c008cd:555",
+      "tx_hash": "0xd37ddb38ad7048bcbe7c171af58ba161ebd2f7b04cbc235b8682bf1093c008cd",
+      "log_index": 555,
+      "timestamp": "2025-11-20T16:39:11Z",
+      "direction": "in",
+      "link": 81285.987707433,
+      "usd_price_at_transfer": 13.002414,
+      "usd_estimate": 1056914.07
+    },
+    {
+      "id": "0x3948c0c73e813ee47de3ffca6d99e79e852f2bf36aebc2f4400055317f97a2fe:835",
+      "tx_hash": "0x3948c0c73e813ee47de3ffca6d99e79e852f2bf36aebc2f4400055317f97a2fe",
+      "log_index": 835,
+      "timestamp": "2025-11-27T16:35:11Z",
+      "direction": "in",
+      "link": 89079.059086452,
+      "usd_price_at_transfer": 13.493753,
+      "usd_estimate": 1202010.78
+    },
+    {
+      "id": "0x16a1601baf12840ce1549017acb314d282275d8724e1990b4768a2e0dc0d5eeb:838",
+      "tx_hash": "0x16a1601baf12840ce1549017acb314d282275d8724e1990b4768a2e0dc0d5eeb",
+      "log_index": 838,
+      "timestamp": "2025-12-04T16:35:47Z",
+      "direction": "in",
+      "link": 81131.319838167,
+      "usd_price_at_transfer": 14.45841,
+      "usd_estimate": 1173029.89
+    },
+    {
+      "id": "0x76b7563feff7adcfd87b98b2775b3507b3309a4d65734d4d2230c8d62ac0655f:760",
+      "tx_hash": "0x76b7563feff7adcfd87b98b2775b3507b3309a4d65734d4d2230c8d62ac0655f",
+      "log_index": 760,
+      "timestamp": "2025-12-11T16:45:59Z",
+      "direction": "in",
+      "link": 84309.66711849,
+      "usd_price_at_transfer": 13.537552,
+      "usd_estimate": 1141346.53
+    },
+    {
+      "id": "0x29e83ae5cc4ce22c64bc25847a8473b283b98477bca4b5b10679949e0e6b8a5e:992",
+      "tx_hash": "0x29e83ae5cc4ce22c64bc25847a8473b283b98477bca4b5b10679949e0e6b8a5e",
+      "log_index": 992,
+      "timestamp": "2025-12-18T16:35:59Z",
+      "direction": "in",
+      "link": 92946.232655301,
+      "usd_price_at_transfer": 12.556002,
+      "usd_estimate": 1167033.1
+    },
+    {
+      "id": "0xbbb043a9ce305e0f67a3765c1497a5db9b32ea172ec7a72ef4ee52d6ba7b0dfc:812",
+      "tx_hash": "0xbbb043a9ce305e0f67a3765c1497a5db9b32ea172ec7a72ef4ee52d6ba7b0dfc",
+      "log_index": 812,
+      "timestamp": "2025-12-25T16:32:23Z",
+      "direction": "in",
+      "link": 89971.907975475,
+      "usd_price_at_transfer": 12.400561,
+      "usd_estimate": 1115702.14
+    },
+    {
+      "id": "0x103ffb72d68071c1c9c7e5e37447e26c2d1918a6916d2fcd6fc50936c68a4321:508",
+      "tx_hash": "0x103ffb72d68071c1c9c7e5e37447e26c2d1918a6916d2fcd6fc50936c68a4321",
+      "log_index": 508,
+      "timestamp": "2026-01-01T16:31:35Z",
+      "direction": "in",
+      "link": 94267.779639829,
+      "usd_price_at_transfer": 12.341711,
+      "usd_estimate": 1163425.72
+    },
+    {
+      "id": "0x72f8e367b571ba3532fc63d8500946dc53c64033c52de6d9bb5acfca2868222c:397",
+      "tx_hash": "0x72f8e367b571ba3532fc63d8500946dc53c64033c52de6d9bb5acfca2868222c",
+      "log_index": 397,
+      "timestamp": "2026-01-08T16:32:59Z",
+      "direction": "in",
+      "link": 87829.550048755,
+      "usd_price_at_transfer": 13.215185,
+      "usd_estimate": 1160683.76
+    },
+    {
+      "id": "0x8a174dd36f59417cdb2b8de382eee38f7b790d8836ee8044b398922241f73931:407",
+      "tx_hash": "0x8a174dd36f59417cdb2b8de382eee38f7b790d8836ee8044b398922241f73931",
+      "log_index": 407,
+      "timestamp": "2026-01-15T16:34:59Z",
+      "direction": "in",
+      "link": 82057.649353155,
+      "usd_price_at_transfer": 13.901691,
+      "usd_estimate": 1140740.11
+    },
+    {
+      "id": "0xb096f220e31027f2867dc0d1ec24fc8f6800f6653fe1211d8ff3f62d845f87c1:729",
+      "tx_hash": "0xb096f220e31027f2867dc0d1ec24fc8f6800f6653fe1211d8ff3f62d845f87c1",
+      "log_index": 729,
+      "timestamp": "2026-01-22T16:34:59Z",
+      "direction": "in",
+      "link": 88845.869810452,
+      "usd_price_at_transfer": 12.2476,
+      "usd_estimate": 1088148.71
+    },
+    {
+      "id": "0x519a3ba0654570bc06f68b52af80abae94ca30ad6d61913872cfa54e66df6f12:876",
+      "tx_hash": "0x519a3ba0654570bc06f68b52af80abae94ca30ad6d61913872cfa54e66df6f12",
+      "log_index": 876,
+      "timestamp": "2026-01-29T16:35:11Z",
+      "direction": "in",
+      "link": 99103.223280414,
+      "usd_price_at_transfer": 10.984967,
+      "usd_estimate": 1088645.67
+    },
+    {
+      "id": "0x183b1f871ddba036713b9883575484d8a259cb28cfcf84e58524475067798b19:439",
+      "tx_hash": "0x183b1f871ddba036713b9883575484d8a259cb28cfcf84e58524475067798b19",
+      "log_index": 439,
+      "timestamp": "2026-02-05T16:37:23Z",
+      "direction": "in",
+      "link": 125454.487323613,
+      "usd_price_at_transfer": 8.572496,
+      "usd_estimate": 1075458.12
+    },
+    {
+      "id": "0x957481a2cffad05ececc5e600bac18f5e4aba1d43b3351baa74a119710c758a6:1183",
+      "tx_hash": "0x957481a2cffad05ececc5e600bac18f5e4aba1d43b3351baa74a119710c758a6",
+      "log_index": 1183,
+      "timestamp": "2026-02-12T16:26:23Z",
+      "direction": "in",
+      "link": 135693.167368752,
+      "usd_price_at_transfer": 8.238629,
+      "usd_estimate": 1117925.71
+    },
+    {
+      "id": "0xb5beb5702c073503bc7ba568df2ad55ccf233b2cf1895bd5c22c84a445950811:431",
+      "tx_hash": "0xb5beb5702c073503bc7ba568df2ad55ccf233b2cf1895bd5c22c84a445950811",
+      "log_index": 431,
+      "timestamp": "2026-02-19T16:35:59Z",
+      "direction": "in",
+      "link": 136898.302474119,
+      "usd_price_at_transfer": 8.430013,
+      "usd_estimate": 1154054.49
+    },
+    {
+      "id": "0xaa0212ee8fb6c9f3a1efb5c605fbda41d8bc80feb5a5f5b3daba86a0d47e79c9:1118",
+      "tx_hash": "0xaa0212ee8fb6c9f3a1efb5c605fbda41d8bc80feb5a5f5b3daba86a0d47e79c9",
+      "log_index": 1118,
+      "timestamp": "2026-02-26T16:38:11Z",
+      "direction": "in",
+      "link": 129095.377949829,
+      "usd_price_at_transfer": 9.044872,
+      "usd_estimate": 1167651.2
+    },
+    {
+      "id": "0x1afad6fa759f28a779390ba4743dbf6cc5facde25aee114c898dbd4b2dcf083f:1110",
+      "tx_hash": "0x1afad6fa759f28a779390ba4743dbf6cc5facde25aee114c898dbd4b2dcf083f",
+      "log_index": 1110,
+      "timestamp": "2026-03-05T17:18:47Z",
+      "direction": "in",
+      "link": 119177.191922617,
+      "usd_price_at_transfer": 9.154443,
+      "usd_estimate": 1091000.82
+    },
+    {
+      "id": "0xecef9d533ad6fd9c60a88d6cad608bfc17199a03010484f327ebf3c37413b1d3:1025",
+      "tx_hash": "0xecef9d533ad6fd9c60a88d6cad608bfc17199a03010484f327ebf3c37413b1d3",
+      "log_index": 1025,
+      "timestamp": "2026-03-12T15:46:11Z",
+      "direction": "in",
+      "link": 121735.128163204,
+      "usd_price_at_transfer": 9.053113,
+      "usd_estimate": 1102081.85
+    },
+    {
+      "id": "0xdb63673bcf330fd9c8e576aa6ffb668127b1cae8c58c70fdb7da28bbdfa9f613:542",
+      "tx_hash": "0xdb63673bcf330fd9c8e576aa6ffb668127b1cae8c58c70fdb7da28bbdfa9f613",
+      "log_index": 542,
+      "timestamp": "2026-03-19T15:35:59Z",
+      "direction": "in",
+      "link": 121315.699769892,
+      "usd_price_at_transfer": 8.922519,
+      "usd_estimate": 1082441.63
+    },
+    {
+      "id": "0x71873103d4229d8f5dd8ba2c87eec16364f6dbbab178be1b9377361d17286f2f:558",
+      "tx_hash": "0x71873103d4229d8f5dd8ba2c87eec16364f6dbbab178be1b9377361d17286f2f",
+      "log_index": 558,
+      "timestamp": "2026-03-26T15:36:59Z",
+      "direction": "in",
+      "link": 131905.936724881,
+      "usd_price_at_transfer": 8.908639,
+      "usd_estimate": 1175102.43
+    },
+    {
+      "id": "0x9fc36ce7d849072f5fe839ccb9f361597f607bcfde2889420bcf1419d35d052c:675",
+      "tx_hash": "0x9fc36ce7d849072f5fe839ccb9f361597f607bcfde2889420bcf1419d35d052c",
+      "log_index": 675,
+      "timestamp": "2026-04-02T15:36:47Z",
+      "direction": "in",
+      "link": 137004.372348566,
+      "usd_price_at_transfer": 8.559505,
+      "usd_estimate": 1172689.64
+    },
+    {
+      "id": "0xbab36a58fe6cc06eea186b2b258dd95aeacf76ab4db65f2899c9597ef91a9f51:729",
+      "tx_hash": "0xbab36a58fe6cc06eea186b2b258dd95aeacf76ab4db65f2899c9597ef91a9f51",
+      "log_index": 729,
+      "timestamp": "2026-04-09T15:40:35Z",
+      "direction": "in",
+      "link": 131656.266667143,
+      "usd_price_at_transfer": 8.906922,
+      "usd_estimate": 1172652.11
+    },
+    {
+      "id": "0x0e7660435bf9e4be0dbc22f722034737ab6a66ed3c71ea32c5017a0358763835:617",
+      "tx_hash": "0x0e7660435bf9e4be0dbc22f722034737ab6a66ed3c71ea32c5017a0358763835",
+      "log_index": 617,
+      "timestamp": "2026-04-16T15:34:35Z",
+      "direction": "in",
+      "link": 121949.836354349,
+      "usd_price_at_transfer": 9.327889,
+      "usd_estimate": 1137534.51
+    },
+    {
+      "id": "0xb79852ae1f62267a7f7e4f20e4466c24d5f8b262c47afa12f8caa0a48c53e55e:265",
+      "tx_hash": "0xb79852ae1f62267a7f7e4f20e4466c24d5f8b262c47afa12f8caa0a48c53e55e",
+      "log_index": 265,
+      "timestamp": "2026-04-23T15:44:11Z",
+      "direction": "in",
+      "link": 123521.898123936,
+      "usd_price_at_transfer": 9.362951,
+      "usd_estimate": 1156529.48
+    },
+    {
+      "id": "0xee9f0418298f7163cc2719e5d19db9a41035cb0451ec5f76940d70ff0f674d2a:751",
+      "tx_hash": "0xee9f0418298f7163cc2719e5d19db9a41035cb0451ec5f76940d70ff0f674d2a",
+      "log_index": 751,
+      "timestamp": "2026-04-30T15:45:47Z",
+      "direction": "in",
+      "link": 125525.275639512,
+      "usd_price_at_transfer": 9.120674,
+      "usd_estimate": 1144875.13
+    },
+    {
+      "id": "0x3ca0a11965c1f57b641f7f5d78712c2e7d23612925d5f26514920fd92546c1dc:78",
+      "tx_hash": "0x3ca0a11965c1f57b641f7f5d78712c2e7d23612925d5f26514920fd92546c1dc",
+      "log_index": 78,
+      "timestamp": "2026-05-07T15:35:23Z",
+      "direction": "in",
+      "link": 119241.2033818,
+      "usd_price_at_transfer": 9.855276,
+      "usd_estimate": 1175155.0
+    },
+    {
+      "id": "0xb72ec32bff811a1db62c48dc8766d143c8ec19b756639912c5c583293dad18a5:1191",
+      "tx_hash": "0xb72ec32bff811a1db62c48dc8766d143c8ec19b756639912c5c583293dad18a5",
+      "log_index": 1191,
+      "timestamp": "2026-05-09T04:04:23Z",
+      "direction": "in",
+      "link": 0.0016,
+      "usd_price_at_transfer": 10.55562,
+      "usd_estimate": 0.02
+    },
+    {
+      "id": "0xa00ca4275d961fda7a63f5a9f105a1a386bb351c4552ffbaf5235a676febf52f:714",
+      "tx_hash": "0xa00ca4275d961fda7a63f5a9f105a1a386bb351c4552ffbaf5235a676febf52f",
+      "log_index": 714,
+      "timestamp": "2026-05-14T15:34:35Z",
+      "direction": "in",
+      "link": 100908.772296217,
+      "usd_price_at_transfer": 10.520772,
+      "usd_estimate": 1061638.22
+    },
+    {
+      "id": "0xe4f3dd698b07a59dc795a5160fc8205468e9df6eae3811ed3e989e84bef4f848:550",
+      "tx_hash": "0xe4f3dd698b07a59dc795a5160fc8205468e9df6eae3811ed3e989e84bef4f848",
+      "log_index": 550,
+      "timestamp": "2026-05-21T15:37:59Z",
+      "direction": "in",
+      "link": 123777.331845556,
+      "usd_price_at_transfer": 9.630592,
+      "usd_estimate": 1192049.02
+    },
+    {
+      "id": "0x0184162d8a53472c4aca65afde7c2a85a50d4054b0b79d5831cba6ff13a27c07:795",
+      "tx_hash": "0x0184162d8a53472c4aca65afde7c2a85a50d4054b0b79d5831cba6ff13a27c07",
+      "log_index": 795,
+      "timestamp": "2026-05-28T15:35:59Z",
+      "direction": "in",
+      "link": 132002.929375345,
+      "usd_price_at_transfer": 8.857645,
+      "usd_estimate": 1169235.11
+    },
+    {
+      "id": "0x8f6d4c2ea5b21a40b7ef9a8a9e00b1aff0126a62aff391224af26c4d1f47b6c8:754",
+      "tx_hash": "0x8f6d4c2ea5b21a40b7ef9a8a9e00b1aff0126a62aff391224af26c4d1f47b6c8",
+      "log_index": 754,
+      "timestamp": "2026-06-04T15:34:35Z",
+      "direction": "in",
+      "link": 148258.619249779,
+      "usd_price_at_transfer": 8.080143,
+      "usd_estimate": 1197950.81
+    },
+    {
+      "id": "0x0addd17580768cd70bc00fd9b5b0ab4c5f94a1a12f6197e86cb30068fd670911:893",
+      "tx_hash": "0x0addd17580768cd70bc00fd9b5b0ab4c5f94a1a12f6197e86cb30068fd670911",
+      "log_index": 893,
+      "timestamp": "2026-06-11T15:34:23Z",
+      "direction": "in",
+      "link": 147197.584576636,
+      "usd_price_at_transfer": 7.749595,
+      "usd_estimate": 1140721.6
+    },
+    {
+      "id": "0xad2ef882b0bfe2cc9b8426c3a2e301d256befd52e179173e85966ac2708b63c7:157",
+      "tx_hash": "0xad2ef882b0bfe2cc9b8426c3a2e301d256befd52e179173e85966ac2708b63c7",
+      "log_index": 157,
+      "timestamp": "2026-06-18T15:33:35Z",
+      "direction": "in",
+      "link": 143676.38760619,
+      "usd_price_at_transfer": 7.919308,
+      "usd_estimate": 1137817.56
+    },
+    {
+      "id": "0x8e17f289b76052e64a64b7aa055fc7d6a66e3b5f5d2ba6eb1dc8d0bb2a0a610b:496",
+      "tx_hash": "0x8e17f289b76052e64a64b7aa055fc7d6a66e3b5f5d2ba6eb1dc8d0bb2a0a610b",
+      "log_index": 496,
+      "timestamp": "2026-06-25T15:34:59Z",
+      "direction": "in",
+      "link": 153956.175275042,
+      "usd_price_at_transfer": 7.154686,
+      "usd_estimate": 1101508.09
+    },
+    {
+      "id": "0x93c858652f6765b0855feeb6fa0f793e82cb86699f3d7616b593863ab9c5674d:617",
+      "tx_hash": "0x93c858652f6765b0855feeb6fa0f793e82cb86699f3d7616b593863ab9c5674d",
+      "log_index": 617,
+      "timestamp": "2026-07-02T15:34:23Z",
+      "direction": "in",
+      "link": 151674.713854072,
+      "usd_price_at_transfer": 7.778756,
+      "usd_estimate": 1179840.59
+    },
+    {
+      "id": "0xbd23f5e4379e5ce559696dedf2c99c36e14631ca277e002037a3410af3b2fbc2:855",
+      "tx_hash": "0xbd23f5e4379e5ce559696dedf2c99c36e14631ca277e002037a3410af3b2fbc2",
+      "log_index": 855,
+      "timestamp": "2026-07-09T15:35:23Z",
+      "direction": "in",
+      "link": 146110.670715665,
+      "usd_price_at_transfer": 7.714538,
+      "usd_estimate": 1127176.37
+    },
+    {
+      "id": "0xd4ea95b2e6e371c1cc9bffc4f8b8038517ab94c9d9cde802abdeaef7e1993e61:518",
+      "tx_hash": "0xd4ea95b2e6e371c1cc9bffc4f8b8038517ab94c9d9cde802abdeaef7e1993e61",
+      "log_index": 518,
+      "timestamp": "2026-07-16T15:34:47Z",
+      "direction": "in",
+      "link": 138306.285562187,
+      "usd_price_at_transfer": 8.447324,
+      "usd_estimate": 1168318.0
+    },
+    {
+      "id": "0x685227c5951ad7589db6dc5f861590eb53b560ff33124851dd5a6c583133e26d:858",
+      "tx_hash": "0x685227c5951ad7589db6dc5f861590eb53b560ff33124851dd5a6c583133e26d",
+      "log_index": 858,
+      "timestamp": "2026-07-23T15:35:35Z",
+      "direction": "in",
+      "link": 135168.325810351,
+      "usd_price_at_transfer": 8.459392,
+      "usd_estimate": 1143441.8
+    },
+    {
+      "id": "0x0f86c7baa9050ce496da2dec034423f8e4a74ce8a9114f199a03301e8d0e414a:516",
+      "tx_hash": "0x0f86c7baa9050ce496da2dec034423f8e4a74ce8a9114f199a03301e8d0e414a",
+      "log_index": 516,
+      "timestamp": "2026-07-30T15:35:23Z",
+      "direction": "in",
+      "link": 135549.01525966,
+      "usd_price_at_transfer": 8.450532,
+      "usd_estimate": 1145461.24
+    },
+    {
+      "id": "0xd3e4d95f73e7e8eb419aa3247a6a26660e5b1796418d47453a2da7583c7bd072:718",
+      "tx_hash": "0xd3e4d95f73e7e8eb419aa3247a6a26660e5b1796418d47453a2da7583c7bd072",
+      "log_index": 718,
+      "timestamp": "2026-08-06T16:43:35Z",
+      "direction": "in",
+      "link": 139956.075082168,
+      "usd_price_at_transfer": 8.246857,
+      "usd_estimate": 1154197.69
+    },
+    {
+      "id": "0x72237c13430fa4de1dbd68483a89d18cb4eb03dc458ac5f6a67fc721fce7509f:657",
+      "tx_hash": "0x72237c13430fa4de1dbd68483a89d18cb4eb03dc458ac5f6a67fc721fce7509f",
+      "log_index": 657,
+      "timestamp": "2026-08-13T15:41:47Z",
+      "direction": "in",
+      "link": 127744.147528792,
+      "usd_price_at_transfer": 8.783329,
+      "usd_estimate": 1122018.86
+    },
+    {
+      "id": "0xc01e5e85201e5ee16d8a8eccd313154ef2d18aa9339e0b117241031ed0fceb8f:307",
+      "tx_hash": "0xc01e5e85201e5ee16d8a8eccd313154ef2d18aa9339e0b117241031ed0fceb8f",
+      "log_index": 307,
+      "timestamp": "2026-08-20T15:36:59Z",
+      "direction": "in",
+      "link": 103041.406339822,
+      "usd_price_at_transfer": 10.658471,
+      "usd_estimate": 1098263.79
+    },
+    {
+      "id": "0x0f59a5dc8761f9a882ad8b03b9cd9be366424d96c7212a53631492f59326b104:186",
+      "tx_hash": "0x0f59a5dc8761f9a882ad8b03b9cd9be366424d96c7212a53631492f59326b104",
+      "log_index": 186,
+      "timestamp": "2026-08-21T15:21:23Z",
+      "direction": "in",
+      "link": 0.07777777,
+      "usd_price_at_transfer": 11.515488,
+      "usd_estimate": 0.9
+    },
+    {
+      "id": "0x3f8fea498ef4744cc9b44b8a61e14972b731b5872b2c86dcc2467b44168a4c42:223",
+      "tx_hash": "0x3f8fea498ef4744cc9b44b8a61e14972b731b5872b2c86dcc2467b44168a4c42",
+      "log_index": 223,
+      "timestamp": "2026-08-27T15:44:59Z",
+      "direction": "in",
+      "link": 91988.702010199,
+      "usd_price_at_transfer": 11.957781,
+      "usd_estimate": 1099980.76
+    },
+    {
+      "id": "0x610fde5c4375268bdbdb6368363f7eb21e96b893d59091a6e98a11f61ee9a438:698",
+      "tx_hash": "0x610fde5c4375268bdbdb6368363f7eb21e96b893d59091a6e98a11f61ee9a438",
+      "log_index": 698,
+      "timestamp": "2026-09-03T15:39:11Z",
+      "direction": "in",
+      "link": 97110.768420649,
+      "usd_price_at_transfer": 11.705317,
+      "usd_estimate": 1136712.32
+    },
+    {
+      "id": "0x1fd06f42a7b3f96386b6dad8dc47cd0e616ff9e944ae21499ea72905761eb66a:647",
+      "tx_hash": "0x1fd06f42a7b3f96386b6dad8dc47cd0e616ff9e944ae21499ea72905761eb66a",
+      "log_index": 647,
+      "timestamp": "2026-09-10T15:34:47Z",
+      "direction": "in",
+      "link": 91115.634834072,
+      "usd_price_at_transfer": 11.619542,
+      "usd_estimate": 1058721.92
+    },
+    {
+      "id": "0x6c5223c73a3abbd5117afa7e29c6993dca778e05ae90c3349eefd3e07ed7f92d:203",
+      "tx_hash": "0x6c5223c73a3abbd5117afa7e29c6993dca778e05ae90c3349eefd3e07ed7f92d",
+      "log_index": 203,
+      "timestamp": "2026-09-17T15:38:11Z",
+      "direction": "in",
+      "link": 97459.259131979,
+      "usd_price_at_transfer": 11.317623,
+      "usd_estimate": 1103007.14
+    },
+    {
+      "id": "0xbdb41b5ed02c143ed3e348749c7c8517d375f6e4c15817405bd3437605980c41:696",
+      "tx_hash": "0xbdb41b5ed02c143ed3e348749c7c8517d375f6e4c15817405bd3437605980c41",
+      "log_index": 696,
+      "timestamp": "2026-09-24T15:35:59Z",
+      "direction": "in",
+      "link": 88105.462965814,
+      "usd_price_at_transfer": 12.651877,
+      "usd_estimate": 1114699.47
+    },
+    {
+      "id": "0x716918279bd52bbb4af6237af26423ac95f796731df725bd4a5a6c79c69ec70b:635",
+      "tx_hash": "0x716918279bd52bbb4af6237af26423ac95f796731df725bd4a5a6c79c69ec70b",
+      "log_index": 635,
+      "timestamp": "2026-10-01T15:35:47Z",
+      "direction": "in",
+      "link": 74703.039307634,
+      "usd_price_at_transfer": 14.25645,
+      "usd_estimate": 1065000.12
+    },
+    {
+      "id": "0xf978d26d9def696258b041d104e9ac166e492ab81802e175a0f2d50fd76598a0:653",
+      "tx_hash": "0xf978d26d9def696258b041d104e9ac166e492ab81802e175a0f2d50fd76598a0",
+      "log_index": 653,
+      "timestamp": "2026-10-08T15:36:47Z",
+      "direction": "in",
+      "link": 82480.358896991,
+      "usd_price_at_transfer": 12.492417,
+      "usd_estimate": 1030379.07
+    },
+    {
+      "id": "0x0e0e517228444d329f69926445bc1552f68b0ae607692eaa0173945692ff0386:708",
+      "tx_hash": "0x0e0e517228444d329f69926445bc1552f68b0ae607692eaa0173945692ff0386",
+      "log_index": 708,
+      "timestamp": "2026-10-15T15:36:35Z",
+      "direction": "in",
+      "link": 89161.564748897,
+      "usd_price_at_transfer": 12.512545,
+      "usd_estimate": 1115638.1
+    }
+  ],
+  "transactions": [
+    {
+      "tx_hash": "0x986aacc9f3ce0e77f50680b5be0a46a8859e4a9ecefaf4eeb4006250fce2b19c",
+      "timestamp": "2025-07-31T14:00:23Z",
+      "direction": "in",
+      "link": 1.0,
+      "usd_estimate": 17.65,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x18680cc14609796fe859db13686d676a373ccf12f692836055ff95dd6aa25a0a",
+      "timestamp": "2025-08-02T19:02:47Z",
+      "direction": "out",
+      "link": 1.0,
+      "usd_estimate": 15.48,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xe705e663b55d7abc0b40882ad96b15b4cdae9c5e9642c78d59e9e0bf8e88df42",
+      "timestamp": "2025-08-07T07:34:47Z",
+      "direction": "in",
+      "link": 1.0,
+      "usd_estimate": 16.8,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x9f9696ea709d445ca51c2c79bb8e63d392d29cc4c58228790f80cce77684a706",
+      "timestamp": "2025-08-07T10:14:59Z",
+      "direction": "in",
+      "link": 65538.89816892,
+      "usd_estimate": 1116782.82,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xbb2f5bb7dfc23a13785ddc72dde9c405150a9ac32bf4b76391893fbfad82e27a",
+      "timestamp": "2025-08-07T19:03:59Z",
+      "direction": "in",
+      "link": 0.5,
+      "usd_estimate": 8.99,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x29aeb296d0f987383e47b0312d8db12b25a85b6b6d5c59e169f334960fe1fcef",
+      "timestamp": "2025-08-07T19:19:23Z",
+      "direction": "in",
+      "link": 1.0,
+      "usd_estimate": 17.98,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x428aa6947502cac2730eccd2a2cb30e3770b220d0666f4ddfbb4ebeece604ba3",
+      "timestamp": "2025-08-07T19:55:59Z",
+      "direction": "in",
+      "link": 1.0,
+      "usd_estimate": 18.23,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x795316eb44aa4aec0a7a413281aabeeeda9f6b384993619132fd49a5a515193d",
+      "timestamp": "2025-08-07T20:58:35Z",
+      "direction": "in",
+      "link": 0.069,
+      "usd_estimate": 1.27,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x447bfbf662e1460fd84a0d7d2f78babb8339cbed58a6530b18f12055ceefe999",
+      "timestamp": "2025-08-07T21:00:59Z",
+      "direction": "in",
+      "link": 0.101,
+      "usd_estimate": 1.86,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x749ff50a86e96ff8d86d51244ab3c778bea9b94c882b127a38546f1b4a798e77",
+      "timestamp": "2025-08-07T21:15:11Z",
+      "direction": "in",
+      "link": 0.7777777,
+      "usd_estimate": 14.3,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xbba1fe41a3e91bd7e4469cf67cb865ca3a0572f615d0b15b1c1fae901b816a0a",
+      "timestamp": "2025-08-08T02:46:59Z",
+      "direction": "in",
+      "link": 0.08062018,
+      "usd_estimate": 1.5,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x89d77c01ebf7e0823245a357b98361d36d4529f61501b685762d0fa5f7344713",
+      "timestamp": "2025-08-08T12:16:23Z",
+      "direction": "in",
+      "link": 0.25860508,
+      "usd_estimate": 5.01,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x4911b3c6773aef2ce54e5dcead63496c45a28b1ddb950051596646c8bf296b9a",
+      "timestamp": "2025-08-08T14:16:11Z",
+      "direction": "in",
+      "link": 0.6942,
+      "usd_estimate": 13.79,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xae3a0372a2e1fba4d9a0891338ab44601bd0d316f289925f977f21c633fb947d",
+      "timestamp": "2025-08-08T14:52:47Z",
+      "direction": "in",
+      "link": 0.77777777,
+      "usd_estimate": 15.16,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x619682919991a04fb946c7b1d2c748d43f9d5d9a8e63aa2b814e86b4ed5988d6",
+      "timestamp": "2025-08-08T17:28:11Z",
+      "direction": "in",
+      "link": 0.0777,
+      "usd_estimate": 1.49,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x95524838d18545d931d421d4dea36b8152820211601391fa27f8d9c85397cfbb",
+      "timestamp": "2025-08-08T20:51:11Z",
+      "direction": "in",
+      "link": 1.02046023,
+      "usd_estimate": 19.99,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xb69df1ab64ba3279eea4e2decad41ac667e0d94f072f9e883995e371f060fefe",
+      "timestamp": "2025-08-08T20:59:11Z",
+      "direction": "in",
+      "link": 0.777,
+      "usd_estimate": 15.23,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x1cc0405326eaa23a08bfa1e7b6e34446fb0120bc41fedd8d1e7e80895098a8e4",
+      "timestamp": "2025-08-09T00:37:35Z",
+      "direction": "in",
+      "link": 0.77777777,
+      "usd_estimate": 15.45,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x23114df40b39ac780efa01180dc9f272636e86ca5cbde73d171489aae88d6beb",
+      "timestamp": "2025-08-09T01:55:47Z",
+      "direction": "in",
+      "link": 1.77777777,
+      "usd_estimate": 35.93,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x447322eca34ee513fad5f167e1e06bb1f7d4263cf68028ae4fc64d71d8cc67b2",
+      "timestamp": "2025-08-09T16:52:35Z",
+      "direction": "in",
+      "link": 0.07777777,
+      "usd_estimate": 1.65,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x5537bee58f672a7b8dcca8c4400136108159372401edcc3ab35c0c2aac193100",
+      "timestamp": "2025-08-12T21:41:23Z",
+      "direction": "in",
+      "link": 0.77,
+      "usd_estimate": 17.99,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xd189eee0a14f83ef8ca855e206bb6615f130545094e231d2a73d12a5b248ff2f",
+      "timestamp": "2025-08-12T23:08:11Z",
+      "direction": "in",
+      "link": 1.488,
+      "usd_estimate": 34.67,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x2f9bb6c7359644d66cee55c4702b535ecb71c43625404e107bd5ccf4921f90e9",
+      "timestamp": "2025-08-14T11:49:23Z",
+      "direction": "in",
+      "link": 44109.76,
+      "usd_estimate": 1029080.7,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x67d67661d776caa96f57effff15d8a54a46a9149b0ea8fefacead3eb068b9b1b",
+      "timestamp": "2025-08-15T08:48:11Z",
+      "direction": "in",
+      "link": 0.5,
+      "usd_estimate": 11.32,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x888006ab6e52d879518d5ebe5da14c6a84b04a35f274c7580d9d1a452719ee81",
+      "timestamp": "2025-08-16T09:12:59Z",
+      "direction": "in",
+      "link": 0.5,
+      "usd_estimate": 10.91,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xc4560186fe1811c3c6d18c047a744ff75c96151540f24c24a6405d401abc0d68",
+      "timestamp": "2025-08-17T21:53:47Z",
+      "direction": "in",
+      "link": 0.5,
+      "usd_estimate": 12.86,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xa2afc7dbade19feb3b0eec78ae3cac82952f92d8fed1d384df641f61458ee3fd",
+      "timestamp": "2025-08-18T21:06:11Z",
+      "direction": "in",
+      "link": 0.5,
+      "usd_estimate": 12.62,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xf8467748d2412ada513479faa11511d14a993eb9dfd8f1c3bfb0ab198d5e2fa3",
+      "timestamp": "2025-08-20T03:23:47Z",
+      "direction": "in",
+      "link": 0.5,
+      "usd_estimate": 11.91,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x842c8e9c0be90f361e4eb7df3cc22a15b65c2415a598622f0ed235b334efab84",
+      "timestamp": "2025-08-21T15:33:23Z",
+      "direction": "in",
+      "link": 41105.842571295,
+      "usd_estimate": 1039977.82,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x60ae467137cb03b4a8f14a2ca458dd0b49e6863fc3f4b57c27fedaa7bda3d8f0",
+      "timestamp": "2025-08-21T17:03:47Z",
+      "direction": "in",
+      "link": 0.28226376,
+      "usd_estimate": 7.03,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x5ad4a10e7854db3ff18edb56617817563a9c36978d16413326ae98eaf0d0376d",
+      "timestamp": "2025-08-21T17:06:11Z",
+      "direction": "in",
+      "link": 7.00439818,
+      "usd_estimate": 174.2,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x78cf8d08af7903ee532deeb16dbe050e049042eb72b42ab2092fac3799df73bc",
+      "timestamp": "2025-08-21T19:05:35Z",
+      "direction": "in",
+      "link": 0.464901347,
+      "usd_estimate": 11.65,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x1dba1cbdadff051d57fbe78dc7c2716373c4ea072949b46bb7fcfe7bdf5aa955",
+      "timestamp": "2025-08-28T15:58:23Z",
+      "direction": "in",
+      "link": 42298.222640916,
+      "usd_estimate": 1046458.03,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x3ccd880b29d59ca5e03fffed86501b852d43bfa02e3acfecd79a6a9c3b8e66c0",
+      "timestamp": "2025-09-04T16:02:59Z",
+      "direction": "in",
+      "link": 43937.572315502,
+      "usd_estimate": 987716.63,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x623f596f48bf5a019f9932ecdc99a3cf03dea85b0cfe05672a8456de68b84197",
+      "timestamp": "2025-09-04T16:12:11Z",
+      "direction": "in",
+      "link": 0.5,
+      "usd_estimate": 11.24,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xb7f1c84b4576b60a4fbd6d7ac2350ed9ffb5ecf5bd430f1d3bfee40ae9ce9c86",
+      "timestamp": "2025-09-11T15:16:23Z",
+      "direction": "in",
+      "link": 43034.626453989,
+      "usd_estimate": 1014756.49,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x425f0662080d52cfe381634ca672ee7b53412e5017f68126039b862efb9486ce",
+      "timestamp": "2025-09-18T15:33:35Z",
+      "direction": "in",
+      "link": 43067.706911766,
+      "usd_estimate": 1053436.11,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x03d08f6b1a9372364e910853289b32b6cddd92de4c71e6fe563d7231cf7eefb9",
+      "timestamp": "2025-09-24T03:06:47Z",
+      "direction": "in",
+      "link": 1e-05,
+      "usd_estimate": 0.0,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xc2075a6affaee13ea72cd67c9fbe575d5fa3889aa9e1eee85c0fce851ecb3400",
+      "timestamp": "2025-09-25T15:32:47Z",
+      "direction": "in",
+      "link": 47903.088899703,
+      "usd_estimate": 997342.31,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xc246b24e06adf4747a119b07973be3b40f21d7cd6668e296561c2d4b52d272b4",
+      "timestamp": "2025-10-02T15:32:35Z",
+      "direction": "in",
+      "link": 46441.678203753,
+      "usd_estimate": 1033140.75,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x0df1ee3e290c0bf014ac6ec6cf1305f9e7f425707a507c1dd0ca306ccdaf06d0",
+      "timestamp": "2025-10-09T15:32:47Z",
+      "direction": "in",
+      "link": 45729.016048809,
+      "usd_estimate": 982598.1,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xa9d7112a4e350f3c3648f89717ee5d043ab377f73b5166c27acbad7bfc1d5f35",
+      "timestamp": "2025-10-16T15:34:59Z",
+      "direction": "in",
+      "link": 59968.587473603,
+      "usd_estimate": 1077912.9,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xa8b8edca59c355a5996180f94712048e93b832b78d00d94ba88004cc551877e6",
+      "timestamp": "2025-10-23T15:33:59Z",
+      "direction": "in",
+      "link": 63481.888720501,
+      "usd_estimate": 1106361.4,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x916326b32e88a23331a9cb562eb6ac72cd327596a01cb257966dea9b8afb9d14",
+      "timestamp": "2025-10-30T15:30:59Z",
+      "direction": "in",
+      "link": 64445.23730118,
+      "usd_estimate": 1097135.21,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xd2516f5456e349040f1fba4f8089a0f509d585c24ff640c1a4e2e5c3e6b22484",
+      "timestamp": "2025-11-06T16:28:59Z",
+      "direction": "in",
+      "link": 78252.511084367,
+      "usd_estimate": 1130540.04,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xebb7dceb5f0c9e3295cf7432818c6118cd18f84233ef7bcf54d39f5ac505c564",
+      "timestamp": "2025-11-13T16:35:35Z",
+      "direction": "in",
+      "link": 74049.242718878,
+      "usd_estimate": 1123872.85,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xd37ddb38ad7048bcbe7c171af58ba161ebd2f7b04cbc235b8682bf1093c008cd",
+      "timestamp": "2025-11-20T16:39:11Z",
+      "direction": "in",
+      "link": 81285.987707433,
+      "usd_estimate": 1056914.07,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x3948c0c73e813ee47de3ffca6d99e79e852f2bf36aebc2f4400055317f97a2fe",
+      "timestamp": "2025-11-27T16:35:11Z",
+      "direction": "in",
+      "link": 89079.059086452,
+      "usd_estimate": 1202010.78,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x16a1601baf12840ce1549017acb314d282275d8724e1990b4768a2e0dc0d5eeb",
+      "timestamp": "2025-12-04T16:35:47Z",
+      "direction": "in",
+      "link": 81131.319838167,
+      "usd_estimate": 1173029.89,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x76b7563feff7adcfd87b98b2775b3507b3309a4d65734d4d2230c8d62ac0655f",
+      "timestamp": "2025-12-11T16:45:59Z",
+      "direction": "in",
+      "link": 84309.66711849,
+      "usd_estimate": 1141346.53,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x29e83ae5cc4ce22c64bc25847a8473b283b98477bca4b5b10679949e0e6b8a5e",
+      "timestamp": "2025-12-18T16:35:59Z",
+      "direction": "in",
+      "link": 92946.232655301,
+      "usd_estimate": 1167033.1,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xbbb043a9ce305e0f67a3765c1497a5db9b32ea172ec7a72ef4ee52d6ba7b0dfc",
+      "timestamp": "2025-12-25T16:32:23Z",
+      "direction": "in",
+      "link": 89971.907975475,
+      "usd_estimate": 1115702.14,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x103ffb72d68071c1c9c7e5e37447e26c2d1918a6916d2fcd6fc50936c68a4321",
+      "timestamp": "2026-01-01T16:31:35Z",
+      "direction": "in",
+      "link": 94267.779639829,
+      "usd_estimate": 1163425.72,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x72f8e367b571ba3532fc63d8500946dc53c64033c52de6d9bb5acfca2868222c",
+      "timestamp": "2026-01-08T16:32:59Z",
+      "direction": "in",
+      "link": 87829.550048755,
+      "usd_estimate": 1160683.76,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x8a174dd36f59417cdb2b8de382eee38f7b790d8836ee8044b398922241f73931",
+      "timestamp": "2026-01-15T16:34:59Z",
+      "direction": "in",
+      "link": 82057.649353155,
+      "usd_estimate": 1140740.11,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xb096f220e31027f2867dc0d1ec24fc8f6800f6653fe1211d8ff3f62d845f87c1",
+      "timestamp": "2026-01-22T16:34:59Z",
+      "direction": "in",
+      "link": 88845.869810452,
+      "usd_estimate": 1088148.71,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x519a3ba0654570bc06f68b52af80abae94ca30ad6d61913872cfa54e66df6f12",
+      "timestamp": "2026-01-29T16:35:11Z",
+      "direction": "in",
+      "link": 99103.223280414,
+      "usd_estimate": 1088645.67,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x183b1f871ddba036713b9883575484d8a259cb28cfcf84e58524475067798b19",
+      "timestamp": "2026-02-05T16:37:23Z",
+      "direction": "in",
+      "link": 125454.487323613,
+      "usd_estimate": 1075458.12,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x957481a2cffad05ececc5e600bac18f5e4aba1d43b3351baa74a119710c758a6",
+      "timestamp": "2026-02-12T16:26:23Z",
+      "direction": "in",
+      "link": 135693.167368752,
+      "usd_estimate": 1117925.71,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xb5beb5702c073503bc7ba568df2ad55ccf233b2cf1895bd5c22c84a445950811",
+      "timestamp": "2026-02-19T16:35:59Z",
+      "direction": "in",
+      "link": 136898.302474119,
+      "usd_estimate": 1154054.49,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xaa0212ee8fb6c9f3a1efb5c605fbda41d8bc80feb5a5f5b3daba86a0d47e79c9",
+      "timestamp": "2026-02-26T16:38:11Z",
+      "direction": "in",
+      "link": 129095.377949829,
+      "usd_estimate": 1167651.2,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x1afad6fa759f28a779390ba4743dbf6cc5facde25aee114c898dbd4b2dcf083f",
+      "timestamp": "2026-03-05T17:18:47Z",
+      "direction": "in",
+      "link": 119177.191922617,
+      "usd_estimate": 1091000.82,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xecef9d533ad6fd9c60a88d6cad608bfc17199a03010484f327ebf3c37413b1d3",
+      "timestamp": "2026-03-12T15:46:11Z",
+      "direction": "in",
+      "link": 121735.128163204,
+      "usd_estimate": 1102081.85,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xdb63673bcf330fd9c8e576aa6ffb668127b1cae8c58c70fdb7da28bbdfa9f613",
+      "timestamp": "2026-03-19T15:35:59Z",
+      "direction": "in",
+      "link": 121315.699769892,
+      "usd_estimate": 1082441.63,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x71873103d4229d8f5dd8ba2c87eec16364f6dbbab178be1b9377361d17286f2f",
+      "timestamp": "2026-03-26T15:36:59Z",
+      "direction": "in",
+      "link": 131905.936724881,
+      "usd_estimate": 1175102.43,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x9fc36ce7d849072f5fe839ccb9f361597f607bcfde2889420bcf1419d35d052c",
+      "timestamp": "2026-04-02T15:36:47Z",
+      "direction": "in",
+      "link": 137004.372348566,
+      "usd_estimate": 1172689.64,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xbab36a58fe6cc06eea186b2b258dd95aeacf76ab4db65f2899c9597ef91a9f51",
+      "timestamp": "2026-04-09T15:40:35Z",
+      "direction": "in",
+      "link": 131656.266667143,
+      "usd_estimate": 1172652.11,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x0e7660435bf9e4be0dbc22f722034737ab6a66ed3c71ea32c5017a0358763835",
+      "timestamp": "2026-04-16T15:34:35Z",
+      "direction": "in",
+      "link": 121949.836354349,
+      "usd_estimate": 1137534.51,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xb79852ae1f62267a7f7e4f20e4466c24d5f8b262c47afa12f8caa0a48c53e55e",
+      "timestamp": "2026-04-23T15:44:11Z",
+      "direction": "in",
+      "link": 123521.898123936,
+      "usd_estimate": 1156529.48,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xee9f0418298f7163cc2719e5d19db9a41035cb0451ec5f76940d70ff0f674d2a",
+      "timestamp": "2026-04-30T15:45:47Z",
+      "direction": "in",
+      "link": 125525.275639512,
+      "usd_estimate": 1144875.13,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x3ca0a11965c1f57b641f7f5d78712c2e7d23612925d5f26514920fd92546c1dc",
+      "timestamp": "2026-05-07T15:35:23Z",
+      "direction": "in",
+      "link": 119241.2033818,
+      "usd_estimate": 1175155.0,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xb72ec32bff811a1db62c48dc8766d143c8ec19b756639912c5c583293dad18a5",
+      "timestamp": "2026-05-09T04:04:23Z",
+      "direction": "in",
+      "link": 0.0016,
+      "usd_estimate": 0.02,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xa00ca4275d961fda7a63f5a9f105a1a386bb351c4552ffbaf5235a676febf52f",
+      "timestamp": "2026-05-14T15:34:35Z",
+      "direction": "in",
+      "link": 100908.772296217,
+      "usd_estimate": 1061638.22,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xe4f3dd698b07a59dc795a5160fc8205468e9df6eae3811ed3e989e84bef4f848",
+      "timestamp": "2026-05-21T15:37:59Z",
+      "direction": "in",
+      "link": 123777.331845556,
+      "usd_estimate": 1192049.02,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x0184162d8a53472c4aca65afde7c2a85a50d4054b0b79d5831cba6ff13a27c07",
+      "timestamp": "2026-05-28T15:35:59Z",
+      "direction": "in",
+      "link": 132002.929375345,
+      "usd_estimate": 1169235.11,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x8f6d4c2ea5b21a40b7ef9a8a9e00b1aff0126a62aff391224af26c4d1f47b6c8",
+      "timestamp": "2026-06-04T15:34:35Z",
+      "direction": "in",
+      "link": 148258.619249779,
+      "usd_estimate": 1197950.81,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x0addd17580768cd70bc00fd9b5b0ab4c5f94a1a12f6197e86cb30068fd670911",
+      "timestamp": "2026-06-11T15:34:23Z",
+      "direction": "in",
+      "link": 147197.584576636,
+      "usd_estimate": 1140721.6,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xad2ef882b0bfe2cc9b8426c3a2e301d256befd52e179173e85966ac2708b63c7",
+      "timestamp": "2026-06-18T15:33:35Z",
+      "direction": "in",
+      "link": 143676.38760619,
+      "usd_estimate": 1137817.56,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x8e17f289b76052e64a64b7aa055fc7d6a66e3b5f5d2ba6eb1dc8d0bb2a0a610b",
+      "timestamp": "2026-06-25T15:34:59Z",
+      "direction": "in",
+      "link": 153956.175275042,
+      "usd_estimate": 1101508.09,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x93c858652f6765b0855feeb6fa0f793e82cb86699f3d7616b593863ab9c5674d",
+      "timestamp": "2026-07-02T15:34:23Z",
+      "direction": "in",
+      "link": 151674.713854072,
+      "usd_estimate": 1179840.59,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xbd23f5e4379e5ce559696dedf2c99c36e14631ca277e002037a3410af3b2fbc2",
+      "timestamp": "2026-07-09T15:35:23Z",
+      "direction": "in",
+      "link": 146110.670715665,
+      "usd_estimate": 1127176.37,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xd4ea95b2e6e371c1cc9bffc4f8b8038517ab94c9d9cde802abdeaef7e1993e61",
+      "timestamp": "2026-07-16T15:34:47Z",
+      "direction": "in",
+      "link": 138306.285562187,
+      "usd_estimate": 1168318.0,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x685227c5951ad7589db6dc5f861590eb53b560ff33124851dd5a6c583133e26d",
+      "timestamp": "2026-07-23T15:35:35Z",
+      "direction": "in",
+      "link": 135168.325810351,
+      "usd_estimate": 1143441.8,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x0f86c7baa9050ce496da2dec034423f8e4a74ce8a9114f199a03301e8d0e414a",
+      "timestamp": "2026-07-30T15:35:23Z",
+      "direction": "in",
+      "link": 135549.01525966,
+      "usd_estimate": 1145461.24,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xd3e4d95f73e7e8eb419aa3247a6a26660e5b1796418d47453a2da7583c7bd072",
+      "timestamp": "2026-08-06T16:43:35Z",
+      "direction": "in",
+      "link": 139956.075082168,
+      "usd_estimate": 1154197.69,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x72237c13430fa4de1dbd68483a89d18cb4eb03dc458ac5f6a67fc721fce7509f",
+      "timestamp": "2026-08-13T15:41:47Z",
+      "direction": "in",
+      "link": 127744.147528792,
+      "usd_estimate": 1122018.86,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xc01e5e85201e5ee16d8a8eccd313154ef2d18aa9339e0b117241031ed0fceb8f",
+      "timestamp": "2026-08-20T15:36:59Z",
+      "direction": "in",
+      "link": 103041.406339822,
+      "usd_estimate": 1098263.79,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x0f59a5dc8761f9a882ad8b03b9cd9be366424d96c7212a53631492f59326b104",
+      "timestamp": "2026-08-21T15:21:23Z",
+      "direction": "in",
+      "link": 0.07777777,
+      "usd_estimate": 0.9,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x3f8fea498ef4744cc9b44b8a61e14972b731b5872b2c86dcc2467b44168a4c42",
+      "timestamp": "2026-08-27T15:44:59Z",
+      "direction": "in",
+      "link": 91988.702010199,
+      "usd_estimate": 1099980.76,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x610fde5c4375268bdbdb6368363f7eb21e96b893d59091a6e98a11f61ee9a438",
+      "timestamp": "2026-09-03T15:39:11Z",
+      "direction": "in",
+      "link": 97110.768420649,
+      "usd_estimate": 1136712.32,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x1fd06f42a7b3f96386b6dad8dc47cd0e616ff9e944ae21499ea72905761eb66a",
+      "timestamp": "2026-09-10T15:34:47Z",
+      "direction": "in",
+      "link": 91115.634834072,
+      "usd_estimate": 1058721.92,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x6c5223c73a3abbd5117afa7e29c6993dca778e05ae90c3349eefd3e07ed7f92d",
+      "timestamp": "2026-09-17T15:38:11Z",
+      "direction": "in",
+      "link": 97459.259131979,
+      "usd_estimate": 1103007.14,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xbdb41b5ed02c143ed3e348749c7c8517d375f6e4c15817405bd3437605980c41",
+      "timestamp": "2026-09-24T15:35:59Z",
+      "direction": "in",
+      "link": 88105.462965814,
+      "usd_estimate": 1114699.47,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x716918279bd52bbb4af6237af26423ac95f796731df725bd4a5a6c79c69ec70b",
+      "timestamp": "2026-10-01T15:35:47Z",
+      "direction": "in",
+      "link": 74703.039307634,
+      "usd_estimate": 1065000.12,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xf978d26d9def696258b041d104e9ac166e492ab81802e175a0f2d50fd76598a0",
+      "timestamp": "2026-10-08T15:36:47Z",
+      "direction": "in",
+      "link": 82480.358896991,
+      "usd_estimate": 1030379.07,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x0e0e517228444d329f69926445bc1552f68b0ae607692eaa0173945692ff0386",
+      "timestamp": "2026-10-15T15:36:35Z",
+      "direction": "in",
+      "link": 89161.564748897,
+      "usd_estimate": 1115638.1,
+      "entry_count": 1
+    }
+  ],
+  "daily": [
+    {
+      "date": "2025-07-31",
+      "link_in": 1.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 17.65,
+      "balance_link": 1.0
+    },
+    {
+      "date": "2025-08-02",
+      "link_in": 0.0,
+      "link_out": 1.0,
+      "usd_in_estimate": 0.0,
+      "balance_link": 0.0
+    },
+    {
+      "date": "2025-08-07",
+      "link_in": 65543.345947,
+      "link_out": 0.0,
+      "usd_in_estimate": 1116862.25,
+      "balance_link": 65543.345947
+    },
+    {
+      "date": "2025-08-08",
+      "link_in": 3.686363,
+      "link_out": 0.0,
+      "usd_in_estimate": 72.17,
+      "balance_link": 65547.03231
+    },
+    {
+      "date": "2025-08-09",
+      "link_in": 2.633333,
+      "link_out": 0.0,
+      "usd_in_estimate": 53.03,
+      "balance_link": 65549.665643
+    },
+    {
+      "date": "2025-08-12",
+      "link_in": 2.258,
+      "link_out": 0.0,
+      "usd_in_estimate": 52.66,
+      "balance_link": 65551.923643
+    },
+    {
+      "date": "2025-08-14",
+      "link_in": 44109.76,
+      "link_out": 0.0,
+      "usd_in_estimate": 1029080.7,
+      "balance_link": 109661.683643
+    },
+    {
+      "date": "2025-08-15",
+      "link_in": 0.5,
+      "link_out": 0.0,
+      "usd_in_estimate": 11.32,
+      "balance_link": 109662.183643
+    },
+    {
+      "date": "2025-08-16",
+      "link_in": 0.5,
+      "link_out": 0.0,
+      "usd_in_estimate": 10.91,
+      "balance_link": 109662.683643
+    },
+    {
+      "date": "2025-08-17",
+      "link_in": 0.5,
+      "link_out": 0.0,
+      "usd_in_estimate": 12.86,
+      "balance_link": 109663.183643
+    },
+    {
+      "date": "2025-08-18",
+      "link_in": 0.5,
+      "link_out": 0.0,
+      "usd_in_estimate": 12.62,
+      "balance_link": 109663.683643
+    },
+    {
+      "date": "2025-08-20",
+      "link_in": 0.5,
+      "link_out": 0.0,
+      "usd_in_estimate": 11.91,
+      "balance_link": 109664.183643
+    },
+    {
+      "date": "2025-08-21",
+      "link_in": 41113.594135,
+      "link_out": 0.0,
+      "usd_in_estimate": 1040170.7,
+      "balance_link": 150777.777778
+    },
+    {
+      "date": "2025-08-28",
+      "link_in": 42298.222641,
+      "link_out": 0.0,
+      "usd_in_estimate": 1046458.03,
+      "balance_link": 193076.000419
+    },
+    {
+      "date": "2025-09-04",
+      "link_in": 43938.072316,
+      "link_out": 0.0,
+      "usd_in_estimate": 987727.87,
+      "balance_link": 237014.072734
+    },
+    {
+      "date": "2025-09-11",
+      "link_in": 43034.626454,
+      "link_out": 0.0,
+      "usd_in_estimate": 1014756.49,
+      "balance_link": 280048.699188
+    },
+    {
+      "date": "2025-09-18",
+      "link_in": 43067.706912,
+      "link_out": 0.0,
+      "usd_in_estimate": 1053436.11,
+      "balance_link": 323116.4061
+    },
+    {
+      "date": "2025-09-24",
+      "link_in": 1e-05,
+      "link_out": 0.0,
+      "usd_in_estimate": 0.0,
+      "balance_link": 323116.40611
+    },
+    {
+      "date": "2025-09-25",
+      "link_in": 47903.0889,
+      "link_out": 0.0,
+      "usd_in_estimate": 997342.31,
+      "balance_link": 371019.49501
+    },
+    {
+      "date": "2025-10-02",
+      "link_in": 46441.678204,
+      "link_out": 0.0,
+      "usd_in_estimate": 1033140.75,
+      "balance_link": 417461.173213
+    },
+    {
+      "date": "2025-10-09",
+      "link_in": 45729.016049,
+      "link_out": 0.0,
+      "usd_in_estimate": 982598.1,
+      "balance_link": 463190.189262
+    },
+    {
+      "date": "2025-10-16",
+      "link_in": 59968.587474,
+      "link_out": 0.0,
+      "usd_in_estimate": 1077912.9,
+      "balance_link": 523158.776736
+    },
+    {
+      "date": "2025-10-23",
+      "link_in": 63481.888721,
+      "link_out": 0.0,
+      "usd_in_estimate": 1106361.4,
+      "balance_link": 586640.665456
+    },
+    {
+      "date": "2025-10-30",
+      "link_in": 64445.237301,
+      "link_out": 0.0,
+      "usd_in_estimate": 1097135.21,
+      "balance_link": 651085.902757
+    },
+    {
+      "date": "2025-11-06",
+      "link_in": 78252.511084,
+      "link_out": 0.0,
+      "usd_in_estimate": 1130540.04,
+      "balance_link": 729338.413842
+    },
+    {
+      "date": "2025-11-13",
+      "link_in": 74049.242719,
+      "link_out": 0.0,
+      "usd_in_estimate": 1123872.85,
+      "balance_link": 803387.656561
+    },
+    {
+      "date": "2025-11-20",
+      "link_in": 81285.987707,
+      "link_out": 0.0,
+      "usd_in_estimate": 1056914.07,
+      "balance_link": 884673.644268
+    },
+    {
+      "date": "2025-11-27",
+      "link_in": 89079.059086,
+      "link_out": 0.0,
+      "usd_in_estimate": 1202010.78,
+      "balance_link": 973752.703355
+    },
+    {
+      "date": "2025-12-04",
+      "link_in": 81131.319838,
+      "link_out": 0.0,
+      "usd_in_estimate": 1173029.89,
+      "balance_link": 1054884.023193
+    },
+    {
+      "date": "2025-12-11",
+      "link_in": 84309.667118,
+      "link_out": 0.0,
+      "usd_in_estimate": 1141346.53,
+      "balance_link": 1139193.690311
+    },
+    {
+      "date": "2025-12-18",
+      "link_in": 92946.232655,
+      "link_out": 0.0,
+      "usd_in_estimate": 1167033.1,
+      "balance_link": 1232139.922967
+    },
+    {
+      "date": "2025-12-25",
+      "link_in": 89971.907975,
+      "link_out": 0.0,
+      "usd_in_estimate": 1115702.14,
+      "balance_link": 1322111.830942
+    },
+    {
+      "date": "2026-01-01",
+      "link_in": 94267.77964,
+      "link_out": 0.0,
+      "usd_in_estimate": 1163425.72,
+      "balance_link": 1416379.610582
+    },
+    {
+      "date": "2026-01-08",
+      "link_in": 87829.550049,
+      "link_out": 0.0,
+      "usd_in_estimate": 1160683.76,
+      "balance_link": 1504209.160631
+    },
+    {
+      "date": "2026-01-15",
+      "link_in": 82057.649353,
+      "link_out": 0.0,
+      "usd_in_estimate": 1140740.11,
+      "balance_link": 1586266.809984
+    },
+    {
+      "date": "2026-01-22",
+      "link_in": 88845.86981,
+      "link_out": 0.0,
+      "usd_in_estimate": 1088148.71,
+      "balance_link": 1675112.679794
+    },
+    {
+      "date": "2026-01-29",
+      "link_in": 99103.22328,
+      "link_out": 0.0,
+      "usd_in_estimate": 1088645.67,
+      "balance_link": 1774215.903075
+    },
+    {
+      "date": "2026-02-05",
+      "link_in": 125454.487324,
+      "link_out": 0.0,
+      "usd_in_estimate": 1075458.12,
+      "balance_link": 1899670.390398
+    },
+    {
+      "date": "2026-02-12",
+      "link_in": 135693.167369,
+      "link_out": 0.0,
+      "usd_in_estimate": 1117925.71,
+      "balance_link": 2035363.557767
+    },
+    {
+      "date": "2026-02-19",
+      "link_in": 136898.302474,
+      "link_out": 0.0,
+      "usd_in_estimate": 1154054.49,
+      "balance_link": 2172261.860241
+    },
+    {
+      "date": "2026-02-26",
+      "link_in": 129095.37795,
+      "link_out": 0.0,
+      "usd_in_estimate": 1167651.2,
+      "balance_link": 2301357.238191
+    },
+    {
+      "date": "2026-03-05",
+      "link_in": 119177.191923,
+      "link_out": 0.0,
+      "usd_in_estimate": 1091000.82,
+      "balance_link": 2420534.430114
+    },
+    {
+      "date": "2026-03-12",
+      "link_in": 121735.128163,
+      "link_out": 0.0,
+      "usd_in_estimate": 1102081.85,
+      "balance_link": 2542269.558277
+    },
+    {
+      "date": "2026-03-19",
+      "link_in": 121315.69977,
+      "link_out": 0.0,
+      "usd_in_estimate": 1082441.63,
+      "balance_link": 2663585.258047
+    },
+    {
+      "date": "2026-03-26",
+      "link_in": 131905.936725,
+      "link_out": 0.0,
+      "usd_in_estimate": 1175102.43,
+      "balance_link": 2795491.194772
+    },
+    {
+      "date": "2026-04-02",
+      "link_in": 137004.372349,
+      "link_out": 0.0,
+      "usd_in_estimate": 1172689.64,
+      "balance_link": 2932495.56712
+    },
+    {
+      "date": "2026-04-09",
+      "link_in": 131656.266667,
+      "link_out": 0.0,
+      "usd_in_estimate": 1172652.11,
+      "balance_link": 3064151.833787
+    },
+    {
+      "date": "2026-04-16",
+      "link_in": 121949.836354,
+      "link_out": 0.0,
+      "usd_in_estimate": 1137534.51,
+      "balance_link": 3186101.670142
+    },
+    {
+      "date": "2026-04-23",
+      "link_in": 123521.898124,
+      "link_out": 0.0,
+      "usd_in_estimate": 1156529.48,
+      "balance_link": 3309623.568266
+    },
+    {
+      "date": "2026-04-30",
+      "link_in": 125525.27564,
+      "link_out": 0.0,
+      "usd_in_estimate": 1144875.13,
+      "balance_link": 3435148.843905
+    },
+    {
+      "date": "2026-05-07",
+      "link_in": 119241.203382,
+      "link_out": 0.0,
+      "usd_in_estimate": 1175155.0,
+      "balance_link": 3554390.047287
+    },
+    {
+      "date": "2026-05-09",
+      "link_in": 0.0016,
+      "link_out": 0.0,
+      "usd_in_estimate": 0.02,
+      "balance_link": 3554390.048887
+    },
+    {
+      "date": "2026-05-14",
+      "link_in": 100908.772296,
+      "link_out": 0.0,
+      "usd_in_estimate": 1061638.22,
+      "balance_link": 3655298.821183
+    },
+    {
+      "date": "2026-05-21",
+      "link_in": 123777.331846,
+      "link_out": 0.0,
+      "usd_in_estimate": 1192049.02,
+      "balance_link": 3779076.153029
+    },
+    {
+      "date": "2026-05-28",
+      "link_in": 132002.929375,
+      "link_out": 0.0,
+      "usd_in_estimate": 1169235.11,
+      "balance_link": 3911079.082404
+    },
+    {
+      "date": "2026-06-04",
+      "link_in": 148258.61925,
+      "link_out": 0.0,
+      "usd_in_estimate": 1197950.81,
+      "balance_link": 4059337.701654
+    },
+    {
+      "date": "2026-06-11",
+      "link_in": 147197.584577,
+      "link_out": 0.0,
+      "usd_in_estimate": 1140721.6,
+      "balance_link": 4206535.28623
+    },
+    {
+      "date": "2026-06-18",
+      "link_in": 143676.387606,
+      "link_out": 0.0,
+      "usd_in_estimate": 1137817.56,
+      "balance_link": 4350211.673837
+    },
+    {
+      "date": "2026-06-25",
+      "link_in": 153956.175275,
+      "link_out": 0.0,
+      "usd_in_estimate": 1101508.09,
+      "balance_link": 4504167.849112
+    },
+    {
+      "date": "2026-07-02",
+      "link_in": 151674.713854,
+      "link_out": 0.0,
+      "usd_in_estimate": 1179840.59,
+      "balance_link": 4655842.562966
+    },
+    {
+      "date": "2026-07-09",
+      "link_in": 146110.670716,
+      "link_out": 0.0,
+      "usd_in_estimate": 1127176.37,
+      "balance_link": 4801953.233681
+    },
+    {
+      "date": "2026-07-16",
+      "link_in": 138306.285562,
+      "link_out": 0.0,
+      "usd_in_estimate": 1168318.0,
+      "balance_link": 4940259.519244
+    },
+    {
+      "date": "2026-07-23",
+      "link_in": 135168.32581,
+      "link_out": 0.0,
+      "usd_in_estimate": 1143441.8,
+      "balance_link": 5075427.845054
+    },
+    {
+      "date": "2026-07-30",
+      "link_in": 135549.01526,
+      "link_out": 0.0,
+      "usd_in_estimate": 1145461.24,
+      "balance_link": 5210976.860314
+    },
+    {
+      "date": "2026-08-06",
+      "link_in": 139956.075082,
+      "link_out": 0.0,
+      "usd_in_estimate": 1154197.69,
+      "balance_link": 5350932.935396
+    },
+    {
+      "date": "2026-08-13",
+      "link_in": 127744.147529,
+      "link_out": 0.0,
+      "usd_in_estimate": 1122018.86,
+      "balance_link": 5478677.082925
+    },
+    {
+      "date": "2026-08-20",
+      "link_in": 103041.40634,
+      "link_out": 0.0,
+      "usd_in_estimate": 1098263.79,
+      "balance_link": 5581718.489264
+    },
+    {
+      "date": "2026-08-21",
+      "link_in": 0.077778,
+      "link_out": 0.0,
+      "usd_in_estimate": 0.9,
+      "balance_link": 5581718.567042
+    },
+    {
+      "date": "2026-08-27",
+      "link_in": 91988.70201,
+      "link_out": 0.0,
+      "usd_in_estimate": 1099980.76,
+      "balance_link": 5673707.269052
+    },
+    {
+      "date": "2026-09-03",
+      "link_in": 97110.768421,
+      "link_out": 0.0,
+      "usd_in_estimate": 1136712.32,
+      "balance_link": 5770818.037473
+    },
+    {
+      "date": "2026-09-10",
+      "link_in": 91115.634834,
+      "link_out": 0.0,
+      "usd_in_estimate": 1058721.92,
+      "balance_link": 5861933.672307
+    },
+    {
+      "date": "2026-09-17",
+      "link_in": 97459.259132,
+      "link_out": 0.0,
+      "usd_in_estimate": 1103007.14,
+      "balance_link": 5959392.931439
+    },
+    {
+      "date": "2026-09-24",
+      "link_in": 88105.462966,
+      "link_out": 0.0,
+      "usd_in_estimate": 1114699.47,
+      "balance_link": 6047498.394405
+    },
+    {
+      "date": "2026-10-01",
+      "link_in": 74703.039308,
+      "link_out": 0.0,
+      "usd_in_estimate": 1065000.12,
+      "balance_link": 6122201.433712
+    },
+    {
+      "date": "2026-10-08",
+      "link_in": 82480.358897,
+      "link_out": 0.0,
+      "usd_in_estimate": 1030379.07,
+      "balance_link": 6204681.792609
+    },
+    {
+      "date": "2026-10-15",
+      "link_in": 89161.564749,
+      "link_out": 0.0,
+      "usd_in_estimate": 1115638.1,
+      "balance_link": 6293843.357358
+    }
+  ]
+}
