@@ -1,0 +1,1594 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-20T00:00:00Z",
+  "reserve_address": "0x9A709B7B69EA42D5eeb1ceBC48674C69E1569eC6",
+  "link_token_address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+  "market": {
+    "link_usd": 12.35,
+    "market_cap_usd": 9250000000,
+    "circulating_supply_link": 750000000,
+    "source": "SYNTHETIC DEMO",
+    "quoted_at": "2026-10-20T00:00:00Z"
+  },
+  "reserve": {
+    "balance_link": 5398307.0,
+    "net_transfer_link": 5398307.0,
+    "reconciled": true,
+    "reconciliation_difference_link": 0.0,
+    "usd_value": 66669091.45,
+    "market_cap_share_pct": 0.7207,
+    "supply_share_pct": 0.7198
+  },
+  "history": {
+    "start": "2025-08-01",
+    "event_count": 62,
+    "tx_count": 62,
+    "unpriced_inflow_events": 0,
+    "complete": true
+  },
+  "last_deposit": {
+    "tx_hash": "0x3f2ce95efe7fcc9d87d6424709a11bda7774280dd38bff7442ce6517db5dfc5d",
+    "timestamp": "2026-10-08T00:00:00Z",
+    "direction": "in",
+    "link": 110397.0,
+    "usd_estimate": 1382170.44,
+    "entry_count": 1
+  },
+  "events": [
+    {
+      "id": "0x1ec1adcc82ddcc59236655c750d650431e16afe96eb9be7db9a79f1d3bfbc7bc:0",
+      "tx_hash": "0x1ec1adcc82ddcc59236655c750d650431e16afe96eb9be7db9a79f1d3bfbc7bc",
+      "log_index": 0,
+      "timestamp": "2025-08-07T00:00:00Z",
+      "direction": "in",
+      "link": 60000,
+      "usd_price_at_transfer": 9.7,
+      "usd_estimate": 582000.0
+    },
+    {
+      "id": "0xe8cd8311fa0475499604ff7107b80e70f4a92e51577d5e21f507a14505712af8:0",
+      "tx_hash": "0xe8cd8311fa0475499604ff7107b80e70f4a92e51577d5e21f507a14505712af8",
+      "log_index": 0,
+      "timestamp": "2025-08-14T00:00:00Z",
+      "direction": "in",
+      "link": 61777,
+      "usd_price_at_transfer": 10.17,
+      "usd_estimate": 628272.09
+    },
+    {
+      "id": "0x114fb8e762734e2726cdea2f43c09b7abaa2fe382acce5a347f316a2454dc128:0",
+      "tx_hash": "0x114fb8e762734e2726cdea2f43c09b7abaa2fe382acce5a347f316a2454dc128",
+      "log_index": 0,
+      "timestamp": "2025-08-21T00:00:00Z",
+      "direction": "in",
+      "link": 63554,
+      "usd_price_at_transfer": 10.64,
+      "usd_estimate": 676214.56
+    },
+    {
+      "id": "0x9615e4dfe08838e23b4f2dc0f996960c4606f144a5f9b9d65b390a057dab9beb:0",
+      "tx_hash": "0x9615e4dfe08838e23b4f2dc0f996960c4606f144a5f9b9d65b390a057dab9beb",
+      "log_index": 0,
+      "timestamp": "2025-08-28T00:00:00Z",
+      "direction": "in",
+      "link": 65331,
+      "usd_price_at_transfer": 11.11,
+      "usd_estimate": 725827.41
+    },
+    {
+      "id": "0x754aa11d2b01561df97395b2fa8ce589863f0f9bb5ebc6ff473f7843e4a7ccc4:0",
+      "tx_hash": "0x754aa11d2b01561df97395b2fa8ce589863f0f9bb5ebc6ff473f7843e4a7ccc4",
+      "log_index": 0,
+      "timestamp": "2025-09-04T00:00:00Z",
+      "direction": "in",
+      "link": 67108,
+      "usd_price_at_transfer": 11.58,
+      "usd_estimate": 777110.64
+    },
+    {
+      "id": "0x1801ff0efcf1744123936c189fab17c0e800567e7d65c21c0dc2f168ea8d7fdd:0",
+      "tx_hash": "0x1801ff0efcf1744123936c189fab17c0e800567e7d65c21c0dc2f168ea8d7fdd",
+      "log_index": 0,
+      "timestamp": "2025-09-11T00:00:00Z",
+      "direction": "in",
+      "link": 68885,
+      "usd_price_at_transfer": 12.05,
+      "usd_estimate": 830064.25
+    },
+    {
+      "id": "0x9b9e61afd4ff3c4427cd0ea418f6ced020c2c84ffc87eeb2e6d35e3387146d07:0",
+      "tx_hash": "0x9b9e61afd4ff3c4427cd0ea418f6ced020c2c84ffc87eeb2e6d35e3387146d07",
+      "log_index": 0,
+      "timestamp": "2025-09-18T00:00:00Z",
+      "direction": "in",
+      "link": 70662,
+      "usd_price_at_transfer": 12.52,
+      "usd_estimate": 884688.24
+    },
+    {
+      "id": "0xf2613626ca19ce910a01c208bf2e383f13c569dff292dc565b37be3f4eeadeac:0",
+      "tx_hash": "0xf2613626ca19ce910a01c208bf2e383f13c569dff292dc565b37be3f4eeadeac",
+      "log_index": 0,
+      "timestamp": "2025-09-25T00:00:00Z",
+      "direction": "in",
+      "link": 72439,
+      "usd_price_at_transfer": 12.99,
+      "usd_estimate": 940982.61
+    },
+    {
+      "id": "0x54e1791efa76322cc4e4b18c7c4fd7f6883ac4d5487419de79ef750b5f61f1b5:0",
+      "tx_hash": "0x54e1791efa76322cc4e4b18c7c4fd7f6883ac4d5487419de79ef750b5f61f1b5",
+      "log_index": 0,
+      "timestamp": "2025-10-02T00:00:00Z",
+      "direction": "in",
+      "link": 74216,
+      "usd_price_at_transfer": 13.46,
+      "usd_estimate": 998947.36
+    },
+    {
+      "id": "0x2a6e5a3e7ad09f44ebdd29ecde34d63f269b41ac7ba8df351bd681e53d559ca5:0",
+      "tx_hash": "0x2a6e5a3e7ad09f44ebdd29ecde34d63f269b41ac7ba8df351bd681e53d559ca5",
+      "log_index": 0,
+      "timestamp": "2025-10-09T00:00:00Z",
+      "direction": "in",
+      "link": 75993,
+      "usd_price_at_transfer": 13.93,
+      "usd_estimate": 1058582.49
+    },
+    {
+      "id": "0x6a35db7d1f4d4713f56e00f4d39e722709714cff1d006f1fd522e910cfa2b932:0",
+      "tx_hash": "0x6a35db7d1f4d4713f56e00f4d39e722709714cff1d006f1fd522e910cfa2b932",
+      "log_index": 0,
+      "timestamp": "2025-10-16T00:00:00Z",
+      "direction": "in",
+      "link": 77770,
+      "usd_price_at_transfer": 14.4,
+      "usd_estimate": 1119888.0
+    },
+    {
+      "id": "0xb21f654ad8ade5e2ccdac08f1ced9c8276d761d9661ff24e0df60bafd3b3704c:0",
+      "tx_hash": "0xb21f654ad8ade5e2ccdac08f1ced9c8276d761d9661ff24e0df60bafd3b3704c",
+      "log_index": 0,
+      "timestamp": "2025-10-23T00:00:00Z",
+      "direction": "in",
+      "link": 79547,
+      "usd_price_at_transfer": 9.7,
+      "usd_estimate": 771605.9
+    },
+    {
+      "id": "0x59fa2375e4d566bb310114515c19dbb421551782393834a05fbdd988a31af448:0",
+      "tx_hash": "0x59fa2375e4d566bb310114515c19dbb421551782393834a05fbdd988a31af448",
+      "log_index": 0,
+      "timestamp": "2025-10-30T00:00:00Z",
+      "direction": "in",
+      "link": 81324,
+      "usd_price_at_transfer": 10.17,
+      "usd_estimate": 827065.08
+    },
+    {
+      "id": "0x4a1e14a0924ab9b64ab0ff38a4a406313eedc524b6295b1266f496d66a26095a:0",
+      "tx_hash": "0x4a1e14a0924ab9b64ab0ff38a4a406313eedc524b6295b1266f496d66a26095a",
+      "log_index": 0,
+      "timestamp": "2025-11-06T00:00:00Z",
+      "direction": "in",
+      "link": 83101,
+      "usd_price_at_transfer": 10.64,
+      "usd_estimate": 884194.64
+    },
+    {
+      "id": "0xc94876bf6ed6be168b81768394dde0729d378ac4294070161539c7a93ac91532:0",
+      "tx_hash": "0xc94876bf6ed6be168b81768394dde0729d378ac4294070161539c7a93ac91532",
+      "log_index": 0,
+      "timestamp": "2025-11-13T00:00:00Z",
+      "direction": "in",
+      "link": 84878,
+      "usd_price_at_transfer": 11.11,
+      "usd_estimate": 942994.58
+    },
+    {
+      "id": "0xf10ee916f7a5704227d57f66c70eacd5548da4fa77f4c53d4920710583815b97:0",
+      "tx_hash": "0xf10ee916f7a5704227d57f66c70eacd5548da4fa77f4c53d4920710583815b97",
+      "log_index": 0,
+      "timestamp": "2025-11-20T00:00:00Z",
+      "direction": "in",
+      "link": 86655,
+      "usd_price_at_transfer": 11.58,
+      "usd_estimate": 1003464.9
+    },
+    {
+      "id": "0x4b3c15de810ccf4cb13282b6381ab9d080c2d621a63f95e93d6242a2923710e1:0",
+      "tx_hash": "0x4b3c15de810ccf4cb13282b6381ab9d080c2d621a63f95e93d6242a2923710e1",
+      "log_index": 0,
+      "timestamp": "2025-11-27T00:00:00Z",
+      "direction": "in",
+      "link": 88432,
+      "usd_price_at_transfer": 12.05,
+      "usd_estimate": 1065605.6
+    },
+    {
+      "id": "0x1739359334e0b7ee56fecbe76dc99235358d440876da17e019b19466e000727f:0",
+      "tx_hash": "0x1739359334e0b7ee56fecbe76dc99235358d440876da17e019b19466e000727f",
+      "log_index": 0,
+      "timestamp": "2025-12-04T00:00:00Z",
+      "direction": "in",
+      "link": 90209,
+      "usd_price_at_transfer": 12.52,
+      "usd_estimate": 1129416.68
+    },
+    {
+      "id": "0x18d3ef30c73bae09325dece9e16b5fa2d27854d4d245a8f3a2c3dd5e3bde86c2:0",
+      "tx_hash": "0x18d3ef30c73bae09325dece9e16b5fa2d27854d4d245a8f3a2c3dd5e3bde86c2",
+      "log_index": 0,
+      "timestamp": "2025-12-11T00:00:00Z",
+      "direction": "in",
+      "link": 91986,
+      "usd_price_at_transfer": 12.99,
+      "usd_estimate": 1194898.14
+    },
+    {
+      "id": "0x073b24028f4ce2e0c2b377323f14aa6665d5646ecdd440c100cba548e9d8df85:0",
+      "tx_hash": "0x073b24028f4ce2e0c2b377323f14aa6665d5646ecdd440c100cba548e9d8df85",
+      "log_index": 0,
+      "timestamp": "2025-12-18T00:00:00Z",
+      "direction": "in",
+      "link": 93763,
+      "usd_price_at_transfer": 13.46,
+      "usd_estimate": 1262049.98
+    },
+    {
+      "id": "0xf53e847d81381fa9286e6d59a6803644423b50f9ba08a55ccae12d6622eb1904:0",
+      "tx_hash": "0xf53e847d81381fa9286e6d59a6803644423b50f9ba08a55ccae12d6622eb1904",
+      "log_index": 0,
+      "timestamp": "2025-12-25T00:00:00Z",
+      "direction": "in",
+      "link": 95540,
+      "usd_price_at_transfer": 13.93,
+      "usd_estimate": 1330872.2
+    },
+    {
+      "id": "0x0a7dafcf0b61654dbfb9515875f018ed73273bfa8c70914677fd2fa3b77fa17b:0",
+      "tx_hash": "0x0a7dafcf0b61654dbfb9515875f018ed73273bfa8c70914677fd2fa3b77fa17b",
+      "log_index": 0,
+      "timestamp": "2026-01-01T00:00:00Z",
+      "direction": "in",
+      "link": 97317,
+      "usd_price_at_transfer": 14.4,
+      "usd_estimate": 1401364.8
+    },
+    {
+      "id": "0xfdfb274325f8b63d8b8dbfb31a9f4e4d669275cb139aecf3ebc32cdb88d085c4:0",
+      "tx_hash": "0xfdfb274325f8b63d8b8dbfb31a9f4e4d669275cb139aecf3ebc32cdb88d085c4",
+      "log_index": 0,
+      "timestamp": "2026-01-08T00:00:00Z",
+      "direction": "in",
+      "link": 99094,
+      "usd_price_at_transfer": 9.7,
+      "usd_estimate": 961211.8
+    },
+    {
+      "id": "0xdfc328bd41aad5205aa1ffc250d5b2a6ca5d673707d7f9fcfef939f3073ebdd6:0",
+      "tx_hash": "0xdfc328bd41aad5205aa1ffc250d5b2a6ca5d673707d7f9fcfef939f3073ebdd6",
+      "log_index": 0,
+      "timestamp": "2026-01-15T00:00:00Z",
+      "direction": "in",
+      "link": 100871,
+      "usd_price_at_transfer": 10.17,
+      "usd_estimate": 1025858.07
+    },
+    {
+      "id": "0x8fe89c512f1bac20fd02538a8edd496af716a64254fed605501961a0017dd776:0",
+      "tx_hash": "0x8fe89c512f1bac20fd02538a8edd496af716a64254fed605501961a0017dd776",
+      "log_index": 0,
+      "timestamp": "2026-01-22T00:00:00Z",
+      "direction": "in",
+      "link": 102648,
+      "usd_price_at_transfer": 10.64,
+      "usd_estimate": 1092174.72
+    },
+    {
+      "id": "0xb6a8b4204bc7ae5d37db75008edca55fdfc8fc20d7f968f474adc1330433c133:0",
+      "tx_hash": "0xb6a8b4204bc7ae5d37db75008edca55fdfc8fc20d7f968f474adc1330433c133",
+      "log_index": 0,
+      "timestamp": "2026-01-29T00:00:00Z",
+      "direction": "in",
+      "link": 104425,
+      "usd_price_at_transfer": 11.11,
+      "usd_estimate": 1160161.75
+    },
+    {
+      "id": "0xc86c470cc18c643c42fb99ca1f0761bf1c8665c0197866679c0e31d91fbef8a6:0",
+      "tx_hash": "0xc86c470cc18c643c42fb99ca1f0761bf1c8665c0197866679c0e31d91fbef8a6",
+      "log_index": 0,
+      "timestamp": "2026-02-05T00:00:00Z",
+      "direction": "in",
+      "link": 106202,
+      "usd_price_at_transfer": 11.58,
+      "usd_estimate": 1229819.16
+    },
+    {
+      "id": "0x1b5368233e1116f29163265b4bd16d1b396c32b2eacc9c390e452cd8ef629251:0",
+      "tx_hash": "0x1b5368233e1116f29163265b4bd16d1b396c32b2eacc9c390e452cd8ef629251",
+      "log_index": 0,
+      "timestamp": "2026-02-12T00:00:00Z",
+      "direction": "in",
+      "link": 107979,
+      "usd_price_at_transfer": 12.05,
+      "usd_estimate": 1301146.95
+    },
+    {
+      "id": "0x24f187cf5e3362737df6efb50965edc826d91dda2ff78a6737b1726b7ad6b2e6:0",
+      "tx_hash": "0x24f187cf5e3362737df6efb50965edc826d91dda2ff78a6737b1726b7ad6b2e6",
+      "log_index": 0,
+      "timestamp": "2026-02-19T00:00:00Z",
+      "direction": "in",
+      "link": 109756,
+      "usd_price_at_transfer": 12.52,
+      "usd_estimate": 1374145.12
+    },
+    {
+      "id": "0x3fced0b7b09c3f8c465d8f1c317811bcc4cc13581f7e38509aeb4fe31e4928b1:0",
+      "tx_hash": "0x3fced0b7b09c3f8c465d8f1c317811bcc4cc13581f7e38509aeb4fe31e4928b1",
+      "log_index": 0,
+      "timestamp": "2026-02-26T00:00:00Z",
+      "direction": "in",
+      "link": 111533,
+      "usd_price_at_transfer": 12.99,
+      "usd_estimate": 1448813.67
+    },
+    {
+      "id": "0x21e1553e178f8db4bfeeb9a095cc159c079c6f62efcb192cef9d19bd7107758d:0",
+      "tx_hash": "0x21e1553e178f8db4bfeeb9a095cc159c079c6f62efcb192cef9d19bd7107758d",
+      "log_index": 0,
+      "timestamp": "2026-03-05T00:00:00Z",
+      "direction": "in",
+      "link": 113310,
+      "usd_price_at_transfer": 13.46,
+      "usd_estimate": 1525152.6
+    },
+    {
+      "id": "0xb98fb10c05aeec54614142885adf22b785e7da066872360c55896e50cda18ae2:0",
+      "tx_hash": "0xb98fb10c05aeec54614142885adf22b785e7da066872360c55896e50cda18ae2",
+      "log_index": 0,
+      "timestamp": "2026-03-12T00:00:00Z",
+      "direction": "in",
+      "link": 115087,
+      "usd_price_at_transfer": 13.93,
+      "usd_estimate": 1603161.91
+    },
+    {
+      "id": "0x7615daedca856923d38831dcb7d808957e44c591705e5a61fe360f5fd15d1ace:0",
+      "tx_hash": "0x7615daedca856923d38831dcb7d808957e44c591705e5a61fe360f5fd15d1ace",
+      "log_index": 0,
+      "timestamp": "2026-03-19T00:00:00Z",
+      "direction": "in",
+      "link": 116864,
+      "usd_price_at_transfer": 14.4,
+      "usd_estimate": 1682841.6
+    },
+    {
+      "id": "0x3c8d139ccae0fafab3f14c619fef5f908cb0aebd7aa8c7e0e31e953be49b5b05:0",
+      "tx_hash": "0x3c8d139ccae0fafab3f14c619fef5f908cb0aebd7aa8c7e0e31e953be49b5b05",
+      "log_index": 0,
+      "timestamp": "2026-03-26T00:00:00Z",
+      "direction": "in",
+      "link": 60641,
+      "usd_price_at_transfer": 9.7,
+      "usd_estimate": 588217.7
+    },
+    {
+      "id": "0xd77cf3f407578b0b4ae680b08d30e7a8dbe39bc2d57e8008cd798f22eeef2578:0",
+      "tx_hash": "0xd77cf3f407578b0b4ae680b08d30e7a8dbe39bc2d57e8008cd798f22eeef2578",
+      "log_index": 0,
+      "timestamp": "2026-04-02T00:00:00Z",
+      "direction": "in",
+      "link": 62418,
+      "usd_price_at_transfer": 10.17,
+      "usd_estimate": 634791.06
+    },
+    {
+      "id": "0xcfaaa81b368621ffbc8618b8db7a68863e6a3994065044a7b4c72f06ec1bab19:0",
+      "tx_hash": "0xcfaaa81b368621ffbc8618b8db7a68863e6a3994065044a7b4c72f06ec1bab19",
+      "log_index": 0,
+      "timestamp": "2026-04-09T00:00:00Z",
+      "direction": "in",
+      "link": 64195,
+      "usd_price_at_transfer": 10.64,
+      "usd_estimate": 683034.8
+    },
+    {
+      "id": "0x9ae248744730913931d7584798c9783d1d6d6e0b93209aa3708412361fb3543b:0",
+      "tx_hash": "0x9ae248744730913931d7584798c9783d1d6d6e0b93209aa3708412361fb3543b",
+      "log_index": 0,
+      "timestamp": "2026-04-16T00:00:00Z",
+      "direction": "in",
+      "link": 65972,
+      "usd_price_at_transfer": 11.11,
+      "usd_estimate": 732948.92
+    },
+    {
+      "id": "0xe295204f20f1025799b1a52843620bcb7ab4252e6476d0db1bd9f8d9f71c43f0:0",
+      "tx_hash": "0xe295204f20f1025799b1a52843620bcb7ab4252e6476d0db1bd9f8d9f71c43f0",
+      "log_index": 0,
+      "timestamp": "2026-04-23T00:00:00Z",
+      "direction": "in",
+      "link": 67749,
+      "usd_price_at_transfer": 11.58,
+      "usd_estimate": 784533.42
+    },
+    {
+      "id": "0x726b03ade0ba1442f1e23427928bb35318f9568a84c81ee1199e5b6b0050d666:0",
+      "tx_hash": "0x726b03ade0ba1442f1e23427928bb35318f9568a84c81ee1199e5b6b0050d666",
+      "log_index": 0,
+      "timestamp": "2026-04-30T00:00:00Z",
+      "direction": "in",
+      "link": 69526,
+      "usd_price_at_transfer": 12.05,
+      "usd_estimate": 837788.3
+    },
+    {
+      "id": "0x14270dc0833c3f602e0d6c0663971c14e6d9e6a7bcc47f6681ee902d193d880a:0",
+      "tx_hash": "0x14270dc0833c3f602e0d6c0663971c14e6d9e6a7bcc47f6681ee902d193d880a",
+      "log_index": 0,
+      "timestamp": "2026-05-07T00:00:00Z",
+      "direction": "in",
+      "link": 71303,
+      "usd_price_at_transfer": 12.52,
+      "usd_estimate": 892713.56
+    },
+    {
+      "id": "0xebb5aac99c07c38d66ae0ddcfe672833c8c792d9e4e520e436da95449bfa45ef:0",
+      "tx_hash": "0xebb5aac99c07c38d66ae0ddcfe672833c8c792d9e4e520e436da95449bfa45ef",
+      "log_index": 0,
+      "timestamp": "2026-05-14T00:00:00Z",
+      "direction": "in",
+      "link": 73080,
+      "usd_price_at_transfer": 12.99,
+      "usd_estimate": 949309.2
+    },
+    {
+      "id": "0x5890c0801f17e244377b50874fc85202bb73304f1aa5e36f59431730c699ae61:0",
+      "tx_hash": "0x5890c0801f17e244377b50874fc85202bb73304f1aa5e36f59431730c699ae61",
+      "log_index": 0,
+      "timestamp": "2026-05-21T00:00:00Z",
+      "direction": "in",
+      "link": 74857,
+      "usd_price_at_transfer": 13.46,
+      "usd_estimate": 1007575.22
+    },
+    {
+      "id": "0x4ffbaa0732d8ba8add65bce6debed68b8d11705a531f8878963d53649f7607d6:0",
+      "tx_hash": "0x4ffbaa0732d8ba8add65bce6debed68b8d11705a531f8878963d53649f7607d6",
+      "log_index": 0,
+      "timestamp": "2026-05-28T00:00:00Z",
+      "direction": "in",
+      "link": 76634,
+      "usd_price_at_transfer": 13.93,
+      "usd_estimate": 1067511.62
+    },
+    {
+      "id": "0x6925a6ab66b817f314773b727e1b2df2c50556b1217923c6070fd745830f02a7:0",
+      "tx_hash": "0x6925a6ab66b817f314773b727e1b2df2c50556b1217923c6070fd745830f02a7",
+      "log_index": 0,
+      "timestamp": "2026-06-04T00:00:00Z",
+      "direction": "in",
+      "link": 78411,
+      "usd_price_at_transfer": 14.4,
+      "usd_estimate": 1129118.4
+    },
+    {
+      "id": "0x18f0e89b28e0dd9ce8a91bde69dd23482d46a0c0d75b1c12e8bd40958c16b063:0",
+      "tx_hash": "0x18f0e89b28e0dd9ce8a91bde69dd23482d46a0c0d75b1c12e8bd40958c16b063",
+      "log_index": 0,
+      "timestamp": "2026-06-11T00:00:00Z",
+      "direction": "in",
+      "link": 80188,
+      "usd_price_at_transfer": 9.7,
+      "usd_estimate": 777823.6
+    },
+    {
+      "id": "0x37df7a7003a81fea5fc76ca9bb563fbfeeae70f5e2cca567dfde936567891cff:0",
+      "tx_hash": "0x37df7a7003a81fea5fc76ca9bb563fbfeeae70f5e2cca567dfde936567891cff",
+      "log_index": 0,
+      "timestamp": "2026-06-18T00:00:00Z",
+      "direction": "in",
+      "link": 81965,
+      "usd_price_at_transfer": 10.17,
+      "usd_estimate": 833584.05
+    },
+    {
+      "id": "0xc8c41547537e8129bb1ce2d121dfb76b9e8d8ab643673c3d5fc8c0f0152a6dda:0",
+      "tx_hash": "0xc8c41547537e8129bb1ce2d121dfb76b9e8d8ab643673c3d5fc8c0f0152a6dda",
+      "log_index": 0,
+      "timestamp": "2026-06-25T00:00:00Z",
+      "direction": "in",
+      "link": 83742,
+      "usd_price_at_transfer": 10.64,
+      "usd_estimate": 891014.88
+    },
+    {
+      "id": "0x054ccf7afe200db070cd27b3a0f491dd0039c63be73aaaaac8391dbe35166e4f:0",
+      "tx_hash": "0x054ccf7afe200db070cd27b3a0f491dd0039c63be73aaaaac8391dbe35166e4f",
+      "log_index": 0,
+      "timestamp": "2026-07-02T00:00:00Z",
+      "direction": "in",
+      "link": 85519,
+      "usd_price_at_transfer": 11.11,
+      "usd_estimate": 950116.09
+    },
+    {
+      "id": "0x2963036602794c97bd2cd73669ee3bfa9ff4bb363d7f9f5c6e54ad213e32247c:0",
+      "tx_hash": "0x2963036602794c97bd2cd73669ee3bfa9ff4bb363d7f9f5c6e54ad213e32247c",
+      "log_index": 0,
+      "timestamp": "2026-07-09T00:00:00Z",
+      "direction": "in",
+      "link": 87296,
+      "usd_price_at_transfer": 11.58,
+      "usd_estimate": 1010887.68
+    },
+    {
+      "id": "0xfbd26a7c6194648ef145c88223b0ad926e3c10a369a46e4486789bb416f99ebe:0",
+      "tx_hash": "0xfbd26a7c6194648ef145c88223b0ad926e3c10a369a46e4486789bb416f99ebe",
+      "log_index": 0,
+      "timestamp": "2026-07-16T00:00:00Z",
+      "direction": "in",
+      "link": 89073,
+      "usd_price_at_transfer": 12.05,
+      "usd_estimate": 1073329.65
+    },
+    {
+      "id": "0xecdeb95c31d2a54d61b4019351f32bf8b42f9cacb9a284910114406e2bf1d4fb:0",
+      "tx_hash": "0xecdeb95c31d2a54d61b4019351f32bf8b42f9cacb9a284910114406e2bf1d4fb",
+      "log_index": 0,
+      "timestamp": "2026-07-23T00:00:00Z",
+      "direction": "in",
+      "link": 90850,
+      "usd_price_at_transfer": 12.52,
+      "usd_estimate": 1137442.0
+    },
+    {
+      "id": "0x48096d55e250c8d11cb06fdb008359d807974447aeb4ca6608a8637b8dca1cf7:0",
+      "tx_hash": "0x48096d55e250c8d11cb06fdb008359d807974447aeb4ca6608a8637b8dca1cf7",
+      "log_index": 0,
+      "timestamp": "2026-07-30T00:00:00Z",
+      "direction": "in",
+      "link": 92627,
+      "usd_price_at_transfer": 12.99,
+      "usd_estimate": 1203224.73
+    },
+    {
+      "id": "0xc70bb150f12e348d08b77e31f24819ae928fdf3074dd2cc5d7044d8f6f309858:0",
+      "tx_hash": "0xc70bb150f12e348d08b77e31f24819ae928fdf3074dd2cc5d7044d8f6f309858",
+      "log_index": 0,
+      "timestamp": "2026-08-06T00:00:00Z",
+      "direction": "in",
+      "link": 94404,
+      "usd_price_at_transfer": 13.46,
+      "usd_estimate": 1270677.84
+    },
+    {
+      "id": "0xa53f51550addb7c08019146709df9c225b3068d4255d3019fa48125cb9bb6866:0",
+      "tx_hash": "0xa53f51550addb7c08019146709df9c225b3068d4255d3019fa48125cb9bb6866",
+      "log_index": 0,
+      "timestamp": "2026-08-13T00:00:00Z",
+      "direction": "in",
+      "link": 96181,
+      "usd_price_at_transfer": 13.93,
+      "usd_estimate": 1339801.33
+    },
+    {
+      "id": "0x044d7df9485aa879982aacf57beb1a46fe7d3f6ce89806bd10edea5011a9ec93:0",
+      "tx_hash": "0x044d7df9485aa879982aacf57beb1a46fe7d3f6ce89806bd10edea5011a9ec93",
+      "log_index": 0,
+      "timestamp": "2026-08-20T00:00:00Z",
+      "direction": "in",
+      "link": 97958,
+      "usd_price_at_transfer": 14.4,
+      "usd_estimate": 1410595.2
+    },
+    {
+      "id": "0xe7c069ae78c15c5a6e75a1bd885860bdf856ad4c724da3bb042bfd2707d7c8a3:0",
+      "tx_hash": "0xe7c069ae78c15c5a6e75a1bd885860bdf856ad4c724da3bb042bfd2707d7c8a3",
+      "log_index": 0,
+      "timestamp": "2026-08-27T00:00:00Z",
+      "direction": "in",
+      "link": 99735,
+      "usd_price_at_transfer": 9.7,
+      "usd_estimate": 967429.5
+    },
+    {
+      "id": "0x111a1b0956fd386437907d39387e60fb6437adafb9ee153c551000c8c580405e:0",
+      "tx_hash": "0x111a1b0956fd386437907d39387e60fb6437adafb9ee153c551000c8c580405e",
+      "log_index": 0,
+      "timestamp": "2026-09-03T00:00:00Z",
+      "direction": "in",
+      "link": 101512,
+      "usd_price_at_transfer": 10.17,
+      "usd_estimate": 1032377.04
+    },
+    {
+      "id": "0x3603416ffeb869955d59fbaa0e6069afa5392b1bcd4866fbf9df303d556ce251:0",
+      "tx_hash": "0x3603416ffeb869955d59fbaa0e6069afa5392b1bcd4866fbf9df303d556ce251",
+      "log_index": 0,
+      "timestamp": "2026-09-10T00:00:00Z",
+      "direction": "in",
+      "link": 103289,
+      "usd_price_at_transfer": 10.64,
+      "usd_estimate": 1098994.96
+    },
+    {
+      "id": "0xd5189ef1bd7a3609d9b6ae4688e472a37d5009e79cb4b2c9b1bdabcde1aaa83a:0",
+      "tx_hash": "0xd5189ef1bd7a3609d9b6ae4688e472a37d5009e79cb4b2c9b1bdabcde1aaa83a",
+      "log_index": 0,
+      "timestamp": "2026-09-17T00:00:00Z",
+      "direction": "in",
+      "link": 105066,
+      "usd_price_at_transfer": 11.11,
+      "usd_estimate": 1167283.26
+    },
+    {
+      "id": "0x42187d0a60151da99584facd527a18729c57c419c31dcc98e4a85cb022e7d3f7:0",
+      "tx_hash": "0x42187d0a60151da99584facd527a18729c57c419c31dcc98e4a85cb022e7d3f7",
+      "log_index": 0,
+      "timestamp": "2026-09-24T00:00:00Z",
+      "direction": "in",
+      "link": 106843,
+      "usd_price_at_transfer": 11.58,
+      "usd_estimate": 1237241.94
+    },
+    {
+      "id": "0x6fb7ddbc43fc625c9ea1d4f77bb9908400310c901d7e4f92af63cdaaf4dd3002:0",
+      "tx_hash": "0x6fb7ddbc43fc625c9ea1d4f77bb9908400310c901d7e4f92af63cdaaf4dd3002",
+      "log_index": 0,
+      "timestamp": "2026-10-01T00:00:00Z",
+      "direction": "in",
+      "link": 108620,
+      "usd_price_at_transfer": 12.05,
+      "usd_estimate": 1308871.0
+    },
+    {
+      "id": "0x3f2ce95efe7fcc9d87d6424709a11bda7774280dd38bff7442ce6517db5dfc5d:0",
+      "tx_hash": "0x3f2ce95efe7fcc9d87d6424709a11bda7774280dd38bff7442ce6517db5dfc5d",
+      "log_index": 0,
+      "timestamp": "2026-10-08T00:00:00Z",
+      "direction": "in",
+      "link": 110397,
+      "usd_price_at_transfer": 12.52,
+      "usd_estimate": 1382170.44
+    }
+  ],
+  "transactions": [
+    {
+      "tx_hash": "0x1ec1adcc82ddcc59236655c750d650431e16afe96eb9be7db9a79f1d3bfbc7bc",
+      "timestamp": "2025-08-07T00:00:00Z",
+      "direction": "in",
+      "link": 60000.0,
+      "usd_estimate": 582000.0,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xe8cd8311fa0475499604ff7107b80e70f4a92e51577d5e21f507a14505712af8",
+      "timestamp": "2025-08-14T00:00:00Z",
+      "direction": "in",
+      "link": 61777.0,
+      "usd_estimate": 628272.09,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x114fb8e762734e2726cdea2f43c09b7abaa2fe382acce5a347f316a2454dc128",
+      "timestamp": "2025-08-21T00:00:00Z",
+      "direction": "in",
+      "link": 63554.0,
+      "usd_estimate": 676214.56,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x9615e4dfe08838e23b4f2dc0f996960c4606f144a5f9b9d65b390a057dab9beb",
+      "timestamp": "2025-08-28T00:00:00Z",
+      "direction": "in",
+      "link": 65331.0,
+      "usd_estimate": 725827.41,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x754aa11d2b01561df97395b2fa8ce589863f0f9bb5ebc6ff473f7843e4a7ccc4",
+      "timestamp": "2025-09-04T00:00:00Z",
+      "direction": "in",
+      "link": 67108.0,
+      "usd_estimate": 777110.64,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x1801ff0efcf1744123936c189fab17c0e800567e7d65c21c0dc2f168ea8d7fdd",
+      "timestamp": "2025-09-11T00:00:00Z",
+      "direction": "in",
+      "link": 68885.0,
+      "usd_estimate": 830064.25,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x9b9e61afd4ff3c4427cd0ea418f6ced020c2c84ffc87eeb2e6d35e3387146d07",
+      "timestamp": "2025-09-18T00:00:00Z",
+      "direction": "in",
+      "link": 70662.0,
+      "usd_estimate": 884688.24,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xf2613626ca19ce910a01c208bf2e383f13c569dff292dc565b37be3f4eeadeac",
+      "timestamp": "2025-09-25T00:00:00Z",
+      "direction": "in",
+      "link": 72439.0,
+      "usd_estimate": 940982.61,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x54e1791efa76322cc4e4b18c7c4fd7f6883ac4d5487419de79ef750b5f61f1b5",
+      "timestamp": "2025-10-02T00:00:00Z",
+      "direction": "in",
+      "link": 74216.0,
+      "usd_estimate": 998947.36,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x2a6e5a3e7ad09f44ebdd29ecde34d63f269b41ac7ba8df351bd681e53d559ca5",
+      "timestamp": "2025-10-09T00:00:00Z",
+      "direction": "in",
+      "link": 75993.0,
+      "usd_estimate": 1058582.49,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x6a35db7d1f4d4713f56e00f4d39e722709714cff1d006f1fd522e910cfa2b932",
+      "timestamp": "2025-10-16T00:00:00Z",
+      "direction": "in",
+      "link": 77770.0,
+      "usd_estimate": 1119888.0,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xb21f654ad8ade5e2ccdac08f1ced9c8276d761d9661ff24e0df60bafd3b3704c",
+      "timestamp": "2025-10-23T00:00:00Z",
+      "direction": "in",
+      "link": 79547.0,
+      "usd_estimate": 771605.9,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x59fa2375e4d566bb310114515c19dbb421551782393834a05fbdd988a31af448",
+      "timestamp": "2025-10-30T00:00:00Z",
+      "direction": "in",
+      "link": 81324.0,
+      "usd_estimate": 827065.08,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x4a1e14a0924ab9b64ab0ff38a4a406313eedc524b6295b1266f496d66a26095a",
+      "timestamp": "2025-11-06T00:00:00Z",
+      "direction": "in",
+      "link": 83101.0,
+      "usd_estimate": 884194.64,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xc94876bf6ed6be168b81768394dde0729d378ac4294070161539c7a93ac91532",
+      "timestamp": "2025-11-13T00:00:00Z",
+      "direction": "in",
+      "link": 84878.0,
+      "usd_estimate": 942994.58,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xf10ee916f7a5704227d57f66c70eacd5548da4fa77f4c53d4920710583815b97",
+      "timestamp": "2025-11-20T00:00:00Z",
+      "direction": "in",
+      "link": 86655.0,
+      "usd_estimate": 1003464.9,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x4b3c15de810ccf4cb13282b6381ab9d080c2d621a63f95e93d6242a2923710e1",
+      "timestamp": "2025-11-27T00:00:00Z",
+      "direction": "in",
+      "link": 88432.0,
+      "usd_estimate": 1065605.6,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x1739359334e0b7ee56fecbe76dc99235358d440876da17e019b19466e000727f",
+      "timestamp": "2025-12-04T00:00:00Z",
+      "direction": "in",
+      "link": 90209.0,
+      "usd_estimate": 1129416.68,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x18d3ef30c73bae09325dece9e16b5fa2d27854d4d245a8f3a2c3dd5e3bde86c2",
+      "timestamp": "2025-12-11T00:00:00Z",
+      "direction": "in",
+      "link": 91986.0,
+      "usd_estimate": 1194898.14,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x073b24028f4ce2e0c2b377323f14aa6665d5646ecdd440c100cba548e9d8df85",
+      "timestamp": "2025-12-18T00:00:00Z",
+      "direction": "in",
+      "link": 93763.0,
+      "usd_estimate": 1262049.98,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xf53e847d81381fa9286e6d59a6803644423b50f9ba08a55ccae12d6622eb1904",
+      "timestamp": "2025-12-25T00:00:00Z",
+      "direction": "in",
+      "link": 95540.0,
+      "usd_estimate": 1330872.2,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x0a7dafcf0b61654dbfb9515875f018ed73273bfa8c70914677fd2fa3b77fa17b",
+      "timestamp": "2026-01-01T00:00:00Z",
+      "direction": "in",
+      "link": 97317.0,
+      "usd_estimate": 1401364.8,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xfdfb274325f8b63d8b8dbfb31a9f4e4d669275cb139aecf3ebc32cdb88d085c4",
+      "timestamp": "2026-01-08T00:00:00Z",
+      "direction": "in",
+      "link": 99094.0,
+      "usd_estimate": 961211.8,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xdfc328bd41aad5205aa1ffc250d5b2a6ca5d673707d7f9fcfef939f3073ebdd6",
+      "timestamp": "2026-01-15T00:00:00Z",
+      "direction": "in",
+      "link": 100871.0,
+      "usd_estimate": 1025858.07,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x8fe89c512f1bac20fd02538a8edd496af716a64254fed605501961a0017dd776",
+      "timestamp": "2026-01-22T00:00:00Z",
+      "direction": "in",
+      "link": 102648.0,
+      "usd_estimate": 1092174.72,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xb6a8b4204bc7ae5d37db75008edca55fdfc8fc20d7f968f474adc1330433c133",
+      "timestamp": "2026-01-29T00:00:00Z",
+      "direction": "in",
+      "link": 104425.0,
+      "usd_estimate": 1160161.75,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xc86c470cc18c643c42fb99ca1f0761bf1c8665c0197866679c0e31d91fbef8a6",
+      "timestamp": "2026-02-05T00:00:00Z",
+      "direction": "in",
+      "link": 106202.0,
+      "usd_estimate": 1229819.16,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x1b5368233e1116f29163265b4bd16d1b396c32b2eacc9c390e452cd8ef629251",
+      "timestamp": "2026-02-12T00:00:00Z",
+      "direction": "in",
+      "link": 107979.0,
+      "usd_estimate": 1301146.95,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x24f187cf5e3362737df6efb50965edc826d91dda2ff78a6737b1726b7ad6b2e6",
+      "timestamp": "2026-02-19T00:00:00Z",
+      "direction": "in",
+      "link": 109756.0,
+      "usd_estimate": 1374145.12,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x3fced0b7b09c3f8c465d8f1c317811bcc4cc13581f7e38509aeb4fe31e4928b1",
+      "timestamp": "2026-02-26T00:00:00Z",
+      "direction": "in",
+      "link": 111533.0,
+      "usd_estimate": 1448813.67,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x21e1553e178f8db4bfeeb9a095cc159c079c6f62efcb192cef9d19bd7107758d",
+      "timestamp": "2026-03-05T00:00:00Z",
+      "direction": "in",
+      "link": 113310.0,
+      "usd_estimate": 1525152.6,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xb98fb10c05aeec54614142885adf22b785e7da066872360c55896e50cda18ae2",
+      "timestamp": "2026-03-12T00:00:00Z",
+      "direction": "in",
+      "link": 115087.0,
+      "usd_estimate": 1603161.91,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x7615daedca856923d38831dcb7d808957e44c591705e5a61fe360f5fd15d1ace",
+      "timestamp": "2026-03-19T00:00:00Z",
+      "direction": "in",
+      "link": 116864.0,
+      "usd_estimate": 1682841.6,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x3c8d139ccae0fafab3f14c619fef5f908cb0aebd7aa8c7e0e31e953be49b5b05",
+      "timestamp": "2026-03-26T00:00:00Z",
+      "direction": "in",
+      "link": 60641.0,
+      "usd_estimate": 588217.7,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xd77cf3f407578b0b4ae680b08d30e7a8dbe39bc2d57e8008cd798f22eeef2578",
+      "timestamp": "2026-04-02T00:00:00Z",
+      "direction": "in",
+      "link": 62418.0,
+      "usd_estimate": 634791.06,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xcfaaa81b368621ffbc8618b8db7a68863e6a3994065044a7b4c72f06ec1bab19",
+      "timestamp": "2026-04-09T00:00:00Z",
+      "direction": "in",
+      "link": 64195.0,
+      "usd_estimate": 683034.8,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x9ae248744730913931d7584798c9783d1d6d6e0b93209aa3708412361fb3543b",
+      "timestamp": "2026-04-16T00:00:00Z",
+      "direction": "in",
+      "link": 65972.0,
+      "usd_estimate": 732948.92,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xe295204f20f1025799b1a52843620bcb7ab4252e6476d0db1bd9f8d9f71c43f0",
+      "timestamp": "2026-04-23T00:00:00Z",
+      "direction": "in",
+      "link": 67749.0,
+      "usd_estimate": 784533.42,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x726b03ade0ba1442f1e23427928bb35318f9568a84c81ee1199e5b6b0050d666",
+      "timestamp": "2026-04-30T00:00:00Z",
+      "direction": "in",
+      "link": 69526.0,
+      "usd_estimate": 837788.3,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x14270dc0833c3f602e0d6c0663971c14e6d9e6a7bcc47f6681ee902d193d880a",
+      "timestamp": "2026-05-07T00:00:00Z",
+      "direction": "in",
+      "link": 71303.0,
+      "usd_estimate": 892713.56,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xebb5aac99c07c38d66ae0ddcfe672833c8c792d9e4e520e436da95449bfa45ef",
+      "timestamp": "2026-05-14T00:00:00Z",
+      "direction": "in",
+      "link": 73080.0,
+      "usd_estimate": 949309.2,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x5890c0801f17e244377b50874fc85202bb73304f1aa5e36f59431730c699ae61",
+      "timestamp": "2026-05-21T00:00:00Z",
+      "direction": "in",
+      "link": 74857.0,
+      "usd_estimate": 1007575.22,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x4ffbaa0732d8ba8add65bce6debed68b8d11705a531f8878963d53649f7607d6",
+      "timestamp": "2026-05-28T00:00:00Z",
+      "direction": "in",
+      "link": 76634.0,
+      "usd_estimate": 1067511.62,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x6925a6ab66b817f314773b727e1b2df2c50556b1217923c6070fd745830f02a7",
+      "timestamp": "2026-06-04T00:00:00Z",
+      "direction": "in",
+      "link": 78411.0,
+      "usd_estimate": 1129118.4,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x18f0e89b28e0dd9ce8a91bde69dd23482d46a0c0d75b1c12e8bd40958c16b063",
+      "timestamp": "2026-06-11T00:00:00Z",
+      "direction": "in",
+      "link": 80188.0,
+      "usd_estimate": 777823.6,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x37df7a7003a81fea5fc76ca9bb563fbfeeae70f5e2cca567dfde936567891cff",
+      "timestamp": "2026-06-18T00:00:00Z",
+      "direction": "in",
+      "link": 81965.0,
+      "usd_estimate": 833584.05,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xc8c41547537e8129bb1ce2d121dfb76b9e8d8ab643673c3d5fc8c0f0152a6dda",
+      "timestamp": "2026-06-25T00:00:00Z",
+      "direction": "in",
+      "link": 83742.0,
+      "usd_estimate": 891014.88,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x054ccf7afe200db070cd27b3a0f491dd0039c63be73aaaaac8391dbe35166e4f",
+      "timestamp": "2026-07-02T00:00:00Z",
+      "direction": "in",
+      "link": 85519.0,
+      "usd_estimate": 950116.09,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x2963036602794c97bd2cd73669ee3bfa9ff4bb363d7f9f5c6e54ad213e32247c",
+      "timestamp": "2026-07-09T00:00:00Z",
+      "direction": "in",
+      "link": 87296.0,
+      "usd_estimate": 1010887.68,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xfbd26a7c6194648ef145c88223b0ad926e3c10a369a46e4486789bb416f99ebe",
+      "timestamp": "2026-07-16T00:00:00Z",
+      "direction": "in",
+      "link": 89073.0,
+      "usd_estimate": 1073329.65,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xecdeb95c31d2a54d61b4019351f32bf8b42f9cacb9a284910114406e2bf1d4fb",
+      "timestamp": "2026-07-23T00:00:00Z",
+      "direction": "in",
+      "link": 90850.0,
+      "usd_estimate": 1137442.0,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x48096d55e250c8d11cb06fdb008359d807974447aeb4ca6608a8637b8dca1cf7",
+      "timestamp": "2026-07-30T00:00:00Z",
+      "direction": "in",
+      "link": 92627.0,
+      "usd_estimate": 1203224.73,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xc70bb150f12e348d08b77e31f24819ae928fdf3074dd2cc5d7044d8f6f309858",
+      "timestamp": "2026-08-06T00:00:00Z",
+      "direction": "in",
+      "link": 94404.0,
+      "usd_estimate": 1270677.84,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xa53f51550addb7c08019146709df9c225b3068d4255d3019fa48125cb9bb6866",
+      "timestamp": "2026-08-13T00:00:00Z",
+      "direction": "in",
+      "link": 96181.0,
+      "usd_estimate": 1339801.33,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x044d7df9485aa879982aacf57beb1a46fe7d3f6ce89806bd10edea5011a9ec93",
+      "timestamp": "2026-08-20T00:00:00Z",
+      "direction": "in",
+      "link": 97958.0,
+      "usd_estimate": 1410595.2,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xe7c069ae78c15c5a6e75a1bd885860bdf856ad4c724da3bb042bfd2707d7c8a3",
+      "timestamp": "2026-08-27T00:00:00Z",
+      "direction": "in",
+      "link": 99735.0,
+      "usd_estimate": 967429.5,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x111a1b0956fd386437907d39387e60fb6437adafb9ee153c551000c8c580405e",
+      "timestamp": "2026-09-03T00:00:00Z",
+      "direction": "in",
+      "link": 101512.0,
+      "usd_estimate": 1032377.04,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x3603416ffeb869955d59fbaa0e6069afa5392b1bcd4866fbf9df303d556ce251",
+      "timestamp": "2026-09-10T00:00:00Z",
+      "direction": "in",
+      "link": 103289.0,
+      "usd_estimate": 1098994.96,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0xd5189ef1bd7a3609d9b6ae4688e472a37d5009e79cb4b2c9b1bdabcde1aaa83a",
+      "timestamp": "2026-09-17T00:00:00Z",
+      "direction": "in",
+      "link": 105066.0,
+      "usd_estimate": 1167283.26,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x42187d0a60151da99584facd527a18729c57c419c31dcc98e4a85cb022e7d3f7",
+      "timestamp": "2026-09-24T00:00:00Z",
+      "direction": "in",
+      "link": 106843.0,
+      "usd_estimate": 1237241.94,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x6fb7ddbc43fc625c9ea1d4f77bb9908400310c901d7e4f92af63cdaaf4dd3002",
+      "timestamp": "2026-10-01T00:00:00Z",
+      "direction": "in",
+      "link": 108620.0,
+      "usd_estimate": 1308871.0,
+      "entry_count": 1
+    },
+    {
+      "tx_hash": "0x3f2ce95efe7fcc9d87d6424709a11bda7774280dd38bff7442ce6517db5dfc5d",
+      "timestamp": "2026-10-08T00:00:00Z",
+      "direction": "in",
+      "link": 110397.0,
+      "usd_estimate": 1382170.44,
+      "entry_count": 1
+    }
+  ],
+  "daily": [
+    {
+      "date": "2025-08-07",
+      "link_in": 60000.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 582000.0,
+      "balance_link": 60000.0
+    },
+    {
+      "date": "2025-08-14",
+      "link_in": 61777.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 628272.09,
+      "balance_link": 121777.0
+    },
+    {
+      "date": "2025-08-21",
+      "link_in": 63554.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 676214.56,
+      "balance_link": 185331.0
+    },
+    {
+      "date": "2025-08-28",
+      "link_in": 65331.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 725827.41,
+      "balance_link": 250662.0
+    },
+    {
+      "date": "2025-09-04",
+      "link_in": 67108.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 777110.64,
+      "balance_link": 317770.0
+    },
+    {
+      "date": "2025-09-11",
+      "link_in": 68885.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 830064.25,
+      "balance_link": 386655.0
+    },
+    {
+      "date": "2025-09-18",
+      "link_in": 70662.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 884688.24,
+      "balance_link": 457317.0
+    },
+    {
+      "date": "2025-09-25",
+      "link_in": 72439.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 940982.61,
+      "balance_link": 529756.0
+    },
+    {
+      "date": "2025-10-02",
+      "link_in": 74216.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 998947.36,
+      "balance_link": 603972.0
+    },
+    {
+      "date": "2025-10-09",
+      "link_in": 75993.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 1058582.49,
+      "balance_link": 679965.0
+    },
+    {
+      "date": "2025-10-16",
+      "link_in": 77770.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 1119888.0,
+      "balance_link": 757735.0
+    },
+    {
+      "date": "2025-10-23",
+      "link_in": 79547.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 771605.9,
+      "balance_link": 837282.0
+    },
+    {
+      "date": "2025-10-30",
+      "link_in": 81324.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 827065.08,
+      "balance_link": 918606.0
+    },
+    {
+      "date": "2025-11-06",
+      "link_in": 83101.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 884194.64,
+      "balance_link": 1001707.0
+    },
+    {
+      "date": "2025-11-13",
+      "link_in": 84878.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 942994.58,
+      "balance_link": 1086585.0
+    },
+    {
+      "date": "2025-11-20",
+      "link_in": 86655.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 1003464.9,
+      "balance_link": 1173240.0
+    },
+    {
+      "date": "2025-11-27",
+      "link_in": 88432.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 1065605.6,
+      "balance_link": 1261672.0
+    },
+    {
+      "date": "2025-12-04",
+      "link_in": 90209.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 1129416.68,
+      "balance_link": 1351881.0
+    },
+    {
+      "date": "2025-12-11",
+      "link_in": 91986.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 1194898.14,
+      "balance_link": 1443867.0
+    },
+    {
+      "date": "2025-12-18",
+      "link_in": 93763.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 1262049.98,
+      "balance_link": 1537630.0
+    },
+    {
+      "date": "2025-12-25",
+      "link_in": 95540.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 1330872.2,
+      "balance_link": 1633170.0
+    },
+    {
+      "date": "2026-01-01",
+      "link_in": 97317.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 1401364.8,
+      "balance_link": 1730487.0
+    },
+    {
+      "date": "2026-01-08",
+      "link_in": 99094.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 961211.8,
+      "balance_link": 1829581.0
+    },
+    {
+      "date": "2026-01-15",
+      "link_in": 100871.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 1025858.07,
+      "balance_link": 1930452.0
+    },
+    {
+      "date": "2026-01-22",
+      "link_in": 102648.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 1092174.72,
+      "balance_link": 2033100.0
+    },
+    {
+      "date": "2026-01-29",
+      "link_in": 104425.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 1160161.75,
+      "balance_link": 2137525.0
+    },
+    {
+      "date": "2026-02-05",
+      "link_in": 106202.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 1229819.16,
+      "balance_link": 2243727.0
+    },
+    {
+      "date": "2026-02-12",
+      "link_in": 107979.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 1301146.95,
+      "balance_link": 2351706.0
+    },
+    {
+      "date": "2026-02-19",
+      "link_in": 109756.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 1374145.12,
+      "balance_link": 2461462.0
+    },
+    {
+      "date": "2026-02-26",
+      "link_in": 111533.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 1448813.67,
+      "balance_link": 2572995.0
+    },
+    {
+      "date": "2026-03-05",
+      "link_in": 113310.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 1525152.6,
+      "balance_link": 2686305.0
+    },
+    {
+      "date": "2026-03-12",
+      "link_in": 115087.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 1603161.91,
+      "balance_link": 2801392.0
+    },
+    {
+      "date": "2026-03-19",
+      "link_in": 116864.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 1682841.6,
+      "balance_link": 2918256.0
+    },
+    {
+      "date": "2026-03-26",
+      "link_in": 60641.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 588217.7,
+      "balance_link": 2978897.0
+    },
+    {
+      "date": "2026-04-02",
+      "link_in": 62418.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 634791.06,
+      "balance_link": 3041315.0
+    },
+    {
+      "date": "2026-04-09",
+      "link_in": 64195.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 683034.8,
+      "balance_link": 3105510.0
+    },
+    {
+      "date": "2026-04-16",
+      "link_in": 65972.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 732948.92,
+      "balance_link": 3171482.0
+    },
+    {
+      "date": "2026-04-23",
+      "link_in": 67749.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 784533.42,
+      "balance_link": 3239231.0
+    },
+    {
+      "date": "2026-04-30",
+      "link_in": 69526.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 837788.3,
+      "balance_link": 3308757.0
+    },
+    {
+      "date": "2026-05-07",
+      "link_in": 71303.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 892713.56,
+      "balance_link": 3380060.0
+    },
+    {
+      "date": "2026-05-14",
+      "link_in": 73080.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 949309.2,
+      "balance_link": 3453140.0
+    },
+    {
+      "date": "2026-05-21",
+      "link_in": 74857.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 1007575.22,
+      "balance_link": 3527997.0
+    },
+    {
+      "date": "2026-05-28",
+      "link_in": 76634.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 1067511.62,
+      "balance_link": 3604631.0
+    },
+    {
+      "date": "2026-06-04",
+      "link_in": 78411.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 1129118.4,
+      "balance_link": 3683042.0
+    },
+    {
+      "date": "2026-06-11",
+      "link_in": 80188.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 777823.6,
+      "balance_link": 3763230.0
+    },
+    {
+      "date": "2026-06-18",
+      "link_in": 81965.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 833584.05,
+      "balance_link": 3845195.0
+    },
+    {
+      "date": "2026-06-25",
+      "link_in": 83742.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 891014.88,
+      "balance_link": 3928937.0
+    },
+    {
+      "date": "2026-07-02",
+      "link_in": 85519.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 950116.09,
+      "balance_link": 4014456.0
+    },
+    {
+      "date": "2026-07-09",
+      "link_in": 87296.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 1010887.68,
+      "balance_link": 4101752.0
+    },
+    {
+      "date": "2026-07-16",
+      "link_in": 89073.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 1073329.65,
+      "balance_link": 4190825.0
+    },
+    {
+      "date": "2026-07-23",
+      "link_in": 90850.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 1137442.0,
+      "balance_link": 4281675.0
+    },
+    {
+      "date": "2026-07-30",
+      "link_in": 92627.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 1203224.73,
+      "balance_link": 4374302.0
+    },
+    {
+      "date": "2026-08-06",
+      "link_in": 94404.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 1270677.84,
+      "balance_link": 4468706.0
+    },
+    {
+      "date": "2026-08-13",
+      "link_in": 96181.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 1339801.33,
+      "balance_link": 4564887.0
+    },
+    {
+      "date": "2026-08-20",
+      "link_in": 97958.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 1410595.2,
+      "balance_link": 4662845.0
+    },
+    {
+      "date": "2026-08-27",
+      "link_in": 99735.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 967429.5,
+      "balance_link": 4762580.0
+    },
+    {
+      "date": "2026-09-03",
+      "link_in": 101512.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 1032377.04,
+      "balance_link": 4864092.0
+    },
+    {
+      "date": "2026-09-10",
+      "link_in": 103289.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 1098994.96,
+      "balance_link": 4967381.0
+    },
+    {
+      "date": "2026-09-17",
+      "link_in": 105066.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 1167283.26,
+      "balance_link": 5072447.0
+    },
+    {
+      "date": "2026-09-24",
+      "link_in": 106843.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 1237241.94,
+      "balance_link": 5179290.0
+    },
+    {
+      "date": "2026-10-01",
+      "link_in": 108620.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 1308871.0,
+      "balance_link": 5287910.0
+    },
+    {
+      "date": "2026-10-08",
+      "link_in": 110397.0,
+      "link_out": 0.0,
+      "usd_in_estimate": 1382170.44,
+      "balance_link": 5398307.0
+    }
+  ],
+  "demo": true
+}
