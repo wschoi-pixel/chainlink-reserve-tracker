@@ -81,7 +81,10 @@ def parse_transfer(item: dict) -> dict | None:
         amount = Decimal(str(raw_value)) / Decimal(10) ** decimals
         timestamp = item['timestamp']
         dt = datetime.fromisoformat(timestamp.replace('Z', '+00:00')).astimezone(timezone.utc)
-        if not (DATE_BEGIN <= dt <= datetime.now(timezone.utc)):
+        # Include pre-launch funding too: the wallet received 1 LINK on
+        # 2025-07-31, before the public August launch. Reconciliation needs
+        # every transfer, not just transfers after the announcement.
+        if dt > datetime.now(timezone.utc):
             return None
         txhash = str(item.get('tx_hash') or item.get('transaction_hash') or '').lower()
         if not txhash.startswith('0x') or len(txhash) != 66:
@@ -255,7 +258,7 @@ def assemble(events: list[dict], balance: Decimal, market: dict, time_str: str |
                         'usd_value': rounded(balance * Decimal(str(market['link_usd'])), 2) if market.get('link_usd') else None,
                         'market_cap_share_pct': rounded(balance * Decimal(str(market['link_usd'])) / Decimal(str(market['market_cap_usd'])) * 100, 4) if market.get('link_usd') and market.get('market_cap_usd') else None,
                         'supply_share_pct': rounded(balance / Decimal(str(market['circulating_supply_link'])) * 100, 4) if market.get('circulating_supply_link') else None},
-            'history': {'start': DATE_BEGIN.date().isoformat(), 'event_count': len(events), 'tx_count': len(txs),
+            'history': {'start': min((e['timestamp'][:10] for e in events), default=DATE_BEGIN.date().isoformat()), 'event_count': len(events), 'tx_count': len(txs),
                         'unpriced_inflow_events': missing, 'complete': True},
             'last_deposit': last_deposit, 'events': events, 'transactions': txs, 'daily': series}
 

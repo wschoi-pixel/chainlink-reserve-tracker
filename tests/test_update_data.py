@@ -57,6 +57,21 @@ class CollectorTests(unittest.TestCase):
     def test_parse_filters_other_token(self):
         self.assertIsNone(c.parse_transfer(transfer(TX_A,'in',1,token='0x'+'4'*40)))
 
+    def test_prelaunch_funding_is_included_in_reconciliation(self):
+        m = MockHttp()
+        m.history_pages[0]['items'].append(transfer(TX_A, 'in', 1, when='2025-07-31T14:00:23Z', index=112))
+        original_get = m.get
+        def with_funding(url):
+            result = original_get(url)
+            if '/token-balances' in url:
+                result[0]['value'] = str(174 * 10**18)
+            return result
+        m.get = with_funding
+        doc = c.run(m)
+        self.assertTrue(doc['reserve']['reconciled'])
+        self.assertEqual(doc['reserve']['balance_link'], 174)
+        self.assertEqual(doc['history']['start'], '2025-07-31')
+
     def test_backfill_reconcile_and_price(self):
         m=MockHttp();doc=c.run(m, now='2026-10-20T00:00:00Z')
         self.assertTrue(doc['reserve']['reconciled'])
