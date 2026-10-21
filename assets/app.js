@@ -6,10 +6,10 @@ const fmt = (v,n=0)=>v==null||!Number.isFinite(Number(v))?'—':Number(v).toLoca
 const money = (v, exact=false)=>v==null||!Number.isFinite(Number(v))?'—':exact?'$'+fmt(v,2):Math.abs(v)>=1e9?'$'+fmt(v/1e9,2)+'B':Math.abs(v)>=1e6?'$'+fmt(v/1e6,2)+'M':Math.abs(v)>=1e3?'$'+fmt(v/1e3,1)+'K':'$'+fmt(v,2);
 const linkFmt = v=>v==null?'—':Math.abs(v)>=1e6?fmt(v/1e6,3)+'M':Math.abs(v)>=1e3?fmt(v/1e3,2)+'K':fmt(v,2);
 const dateFmt = t=>t?new Date(t).toLocaleString('en-GB',{year:'numeric',month:'short',day:'2-digit',hour:'2-digit',minute:'2-digit',timeZone:'UTC',hour12:false}):'—';
-const $set = (id,text)=>{ $(id).textContent=text; };
+const $set = (id,text)=>{ $(id).textContent=tr(text); };
 const isFresh = t=>t&&Date.now()-Date.parse(t)<24*60*60*1000;
 function setStatus(text,type='idle'){ $set('state-text',text); $('live-dot').className='dot'+(type==='ok'?' good':type==='bad'?' bad':''); }
-function showNotice(html){ const el=$('status-notice');el.textContent=html;el.hidden=!html; }
+function showNotice(html){ const el=$('status-notice');el.textContent=tr(html);el.hidden=!html; }
 function weekStart(v){ const d=new Date(v); const wd=(d.getUTCDay()+6)%7;d.setUTCDate(d.getUTCDate()-wd);d.setUTCHours(0,0,0,0);return d.toISOString().slice(0,10); }
 function weeklySeries(data){
   const map=new Map();
@@ -31,7 +31,7 @@ function renderNumbers(){
   $set('market-cap',money(d.market.market_cap_usd));
   $set('market-share',d.reserve.market_cap_share_pct==null?'—':fmt(d.reserve.market_cap_share_pct,3)+'%');
   $set('spot-price',d.market.link_usd==null?'—':'· LINK '+money(d.market.link_usd,true));
-  $set('updated-at','수집 '+dateFmt(d.updated_at)+' UTC');
+  $set('updated-at',tr('수집')+' '+dateFmt(d.updated_at)+' UTC');
   const last=d.last_deposit;
   $set('last-usd',last?money(last.usd_estimate,true):'—');
   $set('last-link',last?fmt(last.link,3)+' LINK':'— LINK');
@@ -88,7 +88,7 @@ function renderLedger(){
   const list=(d.transactions||[]).filter(x=>state.filter==='all'||x.direction===state.filter).slice().reverse();
   const perPage=8,pages=Math.max(1,Math.ceil(list.length/perPage));state.page=Math.min(state.page,pages-1);
   const body=$('ledger-body');body.replaceChildren();
-  if(!list.length){const tr=document.createElement('tr'),td=document.createElement('td');td.colSpan=5;td.className='no-rows';td.textContent='해당하는 거래가 없습니다.';tr.append(td);body.append(tr);}
+  if(!list.length){const tr=document.createElement('tr'),td=document.createElement('td');td.colSpan=5;td.className='no-rows';td.textContent=tr('해당하는 거래가 없습니다.');tr.append(td);body.append(tr);}
   for(const item of list.slice(state.page*perPage,(state.page+1)*perPage)){
     const tr=document.createElement('tr');const c1=document.createElement('td');c1.textContent=dateFmt(item.timestamp);
     const c2=document.createElement('td'),tag=document.createElement('span');tag.className='tag'+(item.direction==='out'?' out':'');tag.textContent=item.direction==='in'?'IN ↓':'OUT ↑';c2.append(tag);
@@ -97,7 +97,7 @@ function renderLedger(){
     const c5=document.createElement('td');c5.className='align-right';const a=document.createElement('a');a.className='tx-link';a.href='https://etherscan.io/tx/'+encodeURIComponent(item.tx_hash);a.target='_blank';a.rel='noreferrer';a.textContent=item.tx_hash.slice(0,10)+'… ↗';c5.append(a);
     tr.append(c1,c2,c3,c4,c5);body.append(tr);
   }
-  $set('table-summary','전체 '+fmt(list.length)+'건 / '+fmt(d.history.unpriced_inflow_events)+'건의 가격 미확인 입금');
+  $set('table-summary',language==='en'?fmt(list.length)+' transfers / '+fmt(d.history.unpriced_inflow_events)+' deposits with unavailable prices':'전체 '+fmt(list.length)+'건 / '+fmt(d.history.unpriced_inflow_events)+'건의 가격 미확인 입금');
   $set('page-number',(state.page+1)+' / '+pages);
   $('prev-btn').disabled=state.page===0;$('next-btn').disabled=state.page>=pages-1;
 }
@@ -109,7 +109,7 @@ function cardCanvas(){
   function rect(px,py,w,h,color,r=0){x.fillStyle=color;x.beginPath();x.roundRect(px,py,w,h,r);x.fill();}
   function txt(t,px,py,size,color='#f2f6ff',bold=false,mono=false){x.fillStyle=color;x.font=`${bold?700:500} ${size}px ${mono?'ui-monospace,monospace':'sans-serif'}`;x.fillText(t,px,py);}
   rect(0,0,1600,900,'#08101f');const g=x.createLinearGradient(0,0,1600,900);g.addColorStop(0,'rgba(54,92,179,.25)');g.addColorStop(.7,'rgba(19,30,57,.04)');g.addColorStop(1,'rgba(71,94,160,.12)');rect(0,0,1600,900,g);rect(0,0,1600,9,'#648aff');
-  txt('⬡  LINK / RESERVE',80,85,31,'#83a5ff',true,true);txt('ON-CHAIN INTELLIGENCE',80,121,16,'#8796b7',false,true);txt('CHAINLINK RESERVE TRACKER',80,198,53,'#f0f5ff',true);
+  txt('⬡  LINK / RESERVE',80,85,31,'#83a5ff',true,true);txt('ON-CHAIN INTELLIGENCE',80,121,16,'#8796b7',false,true);txt('CHAINLINK RESERVE DASHBOARD',80,198,53,'#f0f5ff',true);
   txt('Ethereum on-chain reserve · USD valuation / circulating market cap',80,235,19,'#96a8c8');
   const cards=[['RESERVE VALUE',money(d.reserve.usd_value)],['RESERVE HOLDINGS',linkFmt(d.reserve.balance_link)+' LINK'],['LINK MARKET CAP',money(d.market.market_cap_usd)],['MCAP RESERVE SHARE',d.reserve.market_cap_share_pct==null?'N/A':fmt(d.reserve.market_cap_share_pct,3)+'%']];
   cards.forEach(([label,value],i)=>{const xx=80+i*366;rect(xx,285,350,160,i===3?'#16294e':'#152239',14);txt(label,xx+25,329,17,'#93a8cc',false,true);txt(value,xx+25,402,36,i===3?'#8cb0ff':'#f3f7ff',true,true);});
@@ -124,6 +124,15 @@ function cardCanvas(){
 }
 function saveFileFromCanvas(c){c.toBlob(b=>{if(b)saveFile(b,'LINK-Reserve-'+new Date().toISOString().slice(0,10)+(state.demo?'-DEMO':'')+'.png');},'image/png');}
 function renderAll(){renderNumbers();renderChart();renderLedger();$('download-btn').disabled=false;$('csv-btn').disabled=false;}
+function renderStatus(){
+  const doc=state.data;
+  if(!doc){if(state.failed){setStatus('첫 수집 필요','bad');showNotice('아직 검증된 실제 데이터가 없습니다. GitHub 저장소 Actions → Update reserve data & deploy → Run workflow를 실행하세요. 샘플 미리보기는 주소 끝에 ?demo=1을 붙여 볼 수 있습니다.');}return;}
+    if(state.demo){setStatus('데모 데이터 · 실제 아님','idle');showNotice('미리보기용 가상 데이터입니다. 실제 리저브 수치는 사용하지 않았습니다. 실제 데이터는 GitHub Actions 첫 수집 후 확인하세요.');}
+    else if(!isFresh(doc.updated_at)){setStatus('업데이트 지연','bad');showNotice('데이터 수집이 24시간 이상 지연되었습니다. GitHub Actions 실행 상태를 확인하세요. 마지막으로 성공한 데이터만 표시합니다.');}
+    else if(!doc.market.market_cap_usd||!doc.market.link_usd){setStatus('시장 데이터 불완전','bad');showNotice('현재 LINK 시세 또는 유통 시가총액을 조회하지 못했습니다. 해당 지표는 — 로 표시하며, 수집된 온체인 데이터는 유지합니다.');}
+    else if(!isFresh(doc.market.quoted_at)){setStatus('시세 갱신 지연','bad');showNotice('시장가격 및 시가총액이 24시간 이상 오래된 스냅샷입니다. 시가총액 대비 비율을 최신 값으로 간주하지 마세요.');}
+    else {setStatus('온체인 데이터 동기화됨','ok');showNotice(doc.history.unpriced_inflow_events?'일부 과거 입금의 시점별 USD 가격을 확보하지 못했습니다. 해당 칸은 — 로 표시합니다.':'');}
+}
 async function load(){
   const path=state.demo?'data/demo.json':'data/latest.json';
   try{
@@ -132,16 +141,13 @@ async function load(){
     if(!doc||doc.schema_version!==1||!Array.isArray(doc.events)||!Array.isArray(doc.transactions)||!doc.reserve)throw new Error('데이터 형식이 잘못됨');
     if(!doc.reserve.reconciled)throw new Error('온체인 잔액과 전송기록의 합이 일치하지 않음');
     state.data=doc;renderAll();
-    if(state.demo){setStatus('데모 데이터 · 실제 아님','idle');showNotice('미리보기용 가상 데이터입니다. 실제 리저브 수치는 사용하지 않았습니다. 실제 데이터는 GitHub Actions 첫 수집 후 확인하세요.');}
-    else if(!isFresh(doc.updated_at)){setStatus('업데이트 지연','bad');showNotice('데이터 수집이 24시간 이상 지연되었습니다. GitHub Actions 실행 상태를 확인하세요. 마지막으로 성공한 데이터만 표시합니다.');}
-    else if(!doc.market.market_cap_usd||!doc.market.link_usd){setStatus('시장 데이터 불완전','bad');showNotice('현재 LINK 시세 또는 유통 시가총액을 조회하지 못했습니다. 해당 지표는 — 로 표시하며, 수집된 온체인 데이터는 유지합니다.');}
-    else if(!isFresh(doc.market.quoted_at)){setStatus('시세 갱신 지연','bad');showNotice('시장가격 및 시가총액이 24시간 이상 오래된 스냅샷입니다. 시가총액 대비 비율을 최신 값으로 간주하지 마세요.');}
-    else {setStatus('온체인 데이터 동기화됨','ok');showNotice(doc.history.unpriced_inflow_events?'일부 과거 입금의 시점별 USD 가격을 확보하지 못했습니다. 해당 칸은 — 로 표시합니다.':'');}
-  }catch(e){console.error('데이터 로딩 실패:',e);setStatus('첫 수집 필요','bad');showNotice('아직 검증된 실제 데이터가 없습니다. GitHub 저장소 Actions → Update reserve data & deploy → Run workflow를 실행하세요. 샘플 미리보기는 주소 끝에 ?demo=1을 붙여 볼 수 있습니다.');$('chart-empty').hidden=false;}
+    renderStatus();
+  }catch(e){console.error('데이터 로딩 실패:',e);state.failed=true;renderStatus();$('chart-empty').hidden=false;}
 }
 document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>{state.mode=b.dataset.mode;document.querySelectorAll('.tab').forEach(z=>{z.classList.toggle('active',z===b);z.setAttribute('aria-selected',z===b?'true':'false');});renderChart();}));
 document.querySelectorAll('.period-btn').forEach(b=>b.addEventListener('click',()=>{state.period=b.dataset.period;document.querySelectorAll('.period-btn').forEach(z=>z.classList.toggle('active',z===b));renderChart();}));
 $('filter-select').addEventListener('change',e=>{state.filter=e.target.value;state.page=0;renderLedger();});
 $('prev-btn').addEventListener('click',()=>{state.page--;renderLedger();});$('next-btn').addEventListener('click',()=>{state.page++;renderLedger();});
 $('csv-btn').addEventListener('click',exportCsv);$('download-btn').addEventListener('click',cardCanvas);
+document.addEventListener('languagechange',()=>{if(state.data)renderAll();renderStatus();});
 load();

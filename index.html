@@ -5,11 +5,12 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="color-scheme" content="dark">
   <meta name="description" content="Chainlink Reserve Tracker — 공식 이더리움 온체인 입금내역과 USD 환산, 누적 보유량, 유통 시가총액 대비 비율">
-  <meta property="og:title" content="LINK Reserve Tracker | On-chain intelligence">
+  <meta property="og:title" content="Chainlink Reserve Dashboard | LINK">
   <meta property="og:description" content="온체인 리저브 입금 추이와 LINK 가치 포착을 추적합니다.">
-  <title>Chainlink Reserve Tracker · LINK</title>
+  <title>체인링크 리저브 대시보드 · LINK</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/i18n.js" defer></script>
   <script src="assets/app.js" defer></script>
 </head>
 <body>
@@ -21,6 +22,7 @@
         <span><strong>LINK<span class="brand-white">/RESERVE</span></strong><small>ON-CHAIN INTELLIGENCE</small></span>
       </a>
       <div class="header-right">
+        <button id="language-btn" class="language-btn" type="button" aria-label="Switch to English">English</button>
         <span class="data-pill"><span id="live-dot" class="dot"></span><span id="state-text">데이터 연결 중</span></span>
         <a class="quiet-link desktop" href="https://metrics.chain.link/reserve" target="_blank" rel="noreferrer">OFFICIAL METRICS <span aria-hidden="true">↗</span></a>
         <button id="download-btn" class="header-btn" disabled aria-label="X 게시용 PNG 저장"><span>↧</span> <span class="desktop-inline">X 이미지 저장</span></button>
@@ -30,7 +32,7 @@
     <main>
       <section class="hero">
         <div class="eyebrow"><span class="eyebrow-line"></span> CHAINLINK ECONOMICS <span class="slash">/</span> RESERVE TRACKER</div>
-        <div class="hero-title-row"><div><h1>자본은 <em>숫자</em>를 남긴다<span class="period">.</span></h1><p class="hero-caption">리저브로 유입되는 LINK를 온체인에서 추적하고, 유입 당시 달러 가치를 추정합니다.</p></div><div class="large-watermark">LINK<span>↗</span></div></div>
+        <div class="hero-title-row"><div><h1>체인링크 리저브 대시보드</h1><p class="hero-caption">리저브로 유입되는 LINK를 온체인에서 추적하고, 유입 당시 달러 가치를 추정합니다.</p></div><div class="large-watermark">LINK<span>↗</span></div></div>
         <div class="hero-meta"><span>ETHEREUM MAINNET</span><span class="separator">/</span><span>RESERVE 2025 — PRESENT</span><span class="separator">/</span><span id="updated-at">최종 업데이트 확인 중</span></div>
       </section>
 
