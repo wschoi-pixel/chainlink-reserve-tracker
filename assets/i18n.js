@@ -1,5 +1,13 @@
 'use strict';
 const translations = {
+  '다시 불러오기':'Try again',
+  '데이터 불러오기 실패':'Unable to load data',
+  '화면 표시 오류':'Display error',
+  '데이터 서버에 연결하지 못했습니다. 잠시 후 다시 불러오기를 눌러주세요.':'Unable to connect to the data server. Please try again shortly.',
+  '데이터 파일 요청이 실패했습니다. 잠시 후 다시 불러오기를 눌러주세요.':'The data file request failed. Please try again shortly.',
+  '데이터 파일 형식을 확인하지 못했습니다. 잠시 후 다시 불러오기를 눌러주세요.':'The data file format could not be verified. Please try again shortly.',
+  '데이터 잔액 검증을 통과하지 못해 표시를 중단했습니다.':'The data failed balance verification and has not been displayed.',
+  '데이터는 수신했지만 화면 표시 중 오류가 발생했습니다. 다시 불러오기를 눌러주세요.':'Data was received, but the dashboard could not display it. Please try again.',
   '체인링크 리저브 대시보드':'Chainlink Reserve Dashboard',
   '체인링크 리저브 대시보드 · LINK':'Chainlink Reserve Dashboard · LINK',
   '홈으로':'Home',

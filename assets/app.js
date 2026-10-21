@@ -126,7 +126,13 @@ function saveFileFromCanvas(c){c.toBlob(b=>{if(b)saveFile(b,'LINK-Reserve-'+new 
 function renderAll(){renderNumbers();renderChart();renderLedger();$('download-btn').disabled=false;$('csv-btn').disabled=false;}
 function renderStatus(){
   const doc=state.data;
-  if(!doc){if(state.failed){setStatus('첫 수집 필요','bad');showNotice('아직 검증된 실제 데이터가 없습니다. GitHub 저장소 Actions → Update reserve data & deploy → Run workflow를 실행하세요. 샘플 미리보기는 주소 끝에 ?demo=1을 붙여 볼 수 있습니다.');}return;}
+  if(state.failed){
+    setStatus(state.errorKind==='render'?'화면 표시 오류':'데이터 불러오기 실패','bad');
+    const messages={network:'데이터 서버에 연결하지 못했습니다. 잠시 후 다시 불러오기를 눌러주세요.',http:'데이터 파일 요청이 실패했습니다. 잠시 후 다시 불러오기를 눌러주세요.',format:'데이터 파일 형식을 확인하지 못했습니다. 잠시 후 다시 불러오기를 눌러주세요.',verification:'데이터 잔액 검증을 통과하지 못해 표시를 중단했습니다.',render:'데이터는 수신했지만 화면 표시 중 오류가 발생했습니다. 다시 불러오기를 눌러주세요.'};
+    showNotice(tr(messages[state.errorKind]||messages.network)+(state.httpStatus?' (HTTP '+state.httpStatus+')':''));
+    return;
+  }
+  if(!doc)return;
     if(state.demo){setStatus('데모 데이터 · 실제 아님','idle');showNotice('미리보기용 가상 데이터입니다. 실제 리저브 수치는 사용하지 않았습니다. 실제 데이터는 GitHub Actions 첫 수집 후 확인하세요.');}
     else if(!isFresh(doc.updated_at)){setStatus('업데이트 지연','bad');showNotice('데이터 수집이 24시간 이상 지연되었습니다. GitHub Actions 실행 상태를 확인하세요. 마지막으로 성공한 데이터만 표시합니다.');}
     else if(!doc.market.market_cap_usd||!doc.market.link_usd){setStatus('시장 데이터 불완전','bad');showNotice('현재 LINK 시세 또는 유통 시가총액을 조회하지 못했습니다. 해당 지표는 — 로 표시하며, 수집된 온체인 데이터는 유지합니다.');}
@@ -135,19 +141,25 @@ function renderStatus(){
 }
 async function load(){
   const path=state.demo?'data/demo.json':'data/latest.json';
+  state.failed=false;state.errorKind=null;state.httpStatus=null;
+  $('retry-btn').hidden=true;$('retry-btn').disabled=true;
+  setStatus('데이터 연결 중');showNotice('');
   try{
-    const res=await fetch(path+'?t='+Date.now(),{cache:'no-store'});
-    if(!res.ok)throw new Error('HTTP '+res.status);const doc=await res.json();
-    if(!doc||doc.schema_version!==1||!Array.isArray(doc.events)||!Array.isArray(doc.transactions)||!doc.reserve)throw new Error('데이터 형식이 잘못됨');
-    if(!doc.reserve.reconciled)throw new Error('온체인 잔액과 전송기록의 합이 일치하지 않음');
-    state.data=doc;renderAll();
+    const doc=await fetchReserveSnapshot(path);
+    state.data=doc;
+    try { renderAll(); } catch(error) { throw new ReserveDataError('render'); }
     renderStatus();
-  }catch(e){console.error('데이터 로딩 실패:',e);state.failed=true;renderStatus();$('chart-empty').hidden=false;}
+  }catch(e){
+    console.error('Reserve dashboard:',e);
+    state.failed=true;state.errorKind=e.kind||'network';state.httpStatus=e.status;
+    renderStatus();$('retry-btn').hidden=false;$('chart-empty').hidden=!!state.data;
+  }finally{$('retry-btn').disabled=false;}
 }
 document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>{state.mode=b.dataset.mode;document.querySelectorAll('.tab').forEach(z=>{z.classList.toggle('active',z===b);z.setAttribute('aria-selected',z===b?'true':'false');});renderChart();}));
 document.querySelectorAll('.period-btn').forEach(b=>b.addEventListener('click',()=>{state.period=b.dataset.period;document.querySelectorAll('.period-btn').forEach(z=>z.classList.toggle('active',z===b));renderChart();}));
 $('filter-select').addEventListener('change',e=>{state.filter=e.target.value;state.page=0;renderLedger();});
 $('prev-btn').addEventListener('click',()=>{state.page--;renderLedger();});$('next-btn').addEventListener('click',()=>{state.page++;renderLedger();});
+$('retry-btn').addEventListener('click',load);
 $('csv-btn').addEventListener('click',exportCsv);$('download-btn').addEventListener('click',cardCanvas);
 document.addEventListener('languagechange',()=>{if(state.data)renderAll();renderStatus();});
 load();

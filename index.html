@@ -9,9 +9,10 @@
   <meta property="og:description" content="온체인 리저브 입금 추이와 LINK 가치 포착을 추적합니다.">
   <title>체인링크 리저브 대시보드 · LINK</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/styles.css?v=2">
-  <script src="assets/i18n.js?v=2" defer></script>
-  <script src="assets/app.js?v=2" defer></script>
+  <link rel="stylesheet" href="assets/styles.css?v=3">
+  <script src="assets/i18n.js?v=3" defer></script>
+  <script src="assets/data-loader.js?v=3" defer></script>
+  <script src="assets/app.js?v=3" defer></script>
 </head>
 <body>
   <div class="top-rule"></div>
@@ -37,6 +38,7 @@
       </section>
 
       <section class="notice" id="status-notice" role="status" hidden></section>
+      <button id="retry-btn" class="outline-btn retry-btn" type="button" hidden>다시 불러오기</button>
 
       <section class="kpis" aria-label="주요 지표">
         <article class="metric featured"><div class="metric-top">리저브 총 가치 <span class="metric-sup">01 / USD</span></div><div class="metric-value" id="reserve-usd">—</div><div class="metric-sub">현재 LINK 가격 적용 <span id="spot-price">—</span></div><div class="metric-ornament"></div></article>
