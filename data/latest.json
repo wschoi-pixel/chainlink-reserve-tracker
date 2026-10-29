@@ -1,37 +1,37 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-29T13:11:53Z",
+  "updated_at": "2026-10-29T22:49:53Z",
   "reserve_address": "0x9A709B7B69EA42D5eeb1ceBC48674C69E1569eC6",
   "link_token_address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
   "market": {
-    "link_usd": 11.65,
-    "market_cap_usd": 8930425788.0,
+    "link_usd": 10.81,
+    "market_cap_usd": 8297888662.0,
     "circulating_supply_link": 766849970.424884,
     "source": "CoinGecko",
-    "quoted_at": "2026-10-29T13:11:53Z"
+    "quoted_at": "2026-10-29T22:49:53Z"
   },
   "reserve": {
-    "balance_link": 6382287.133604467,
-    "net_transfer_link": 6382287.133604464,
+    "balance_link": 6475076.150530912,
+    "net_transfer_link": 6475076.15053091,
     "reconciled": true,
-    "reconciliation_difference_link": 3e-09,
-    "usd_value": 74353645.11,
-    "market_cap_share_pct": 0.8326,
-    "supply_share_pct": 0.8323
+    "reconciliation_difference_link": 2e-09,
+    "usd_value": 69995573.19,
+    "market_cap_share_pct": 0.8435,
+    "supply_share_pct": 0.8444
   },
   "history": {
     "start": "2025-07-31",
-    "event_count": 97,
-    "tx_count": 97,
+    "event_count": 98,
+    "tx_count": 98,
     "unpriced_inflow_events": 0,
     "complete": true
   },
   "last_deposit": {
-    "tx_hash": "0x8049cb522b5a0f1a60eca888bcd085c0ac4c51c24ea15d1c2ae679fcb7e800fe",
-    "timestamp": "2026-10-22T15:47:23Z",
+    "tx_hash": "0x01e6c5026d84f24d430be8ee5e444fbcd52bfd6c3c8d8ac5509e2e55c9d55237",
+    "timestamp": "2026-10-29T15:37:47Z",
     "direction": "in",
-    "link": 88443.776246102,
-    "usd_estimate": 1055663.06,
+    "link": 92789.016926446,
+    "usd_estimate": 1104901.97,
     "entry_count": 1
   },
   "events": [
@@ -1004,6 +1004,16 @@
       "link": 88443.776246102,
       "usd_price_at_transfer": 11.935979,
       "usd_estimate": 1055663.06
+    },
+    {
+      "id": "0x01e6c5026d84f24d430be8ee5e444fbcd52bfd6c3c8d8ac5509e2e55c9d55237:820",
+      "tx_hash": "0x01e6c5026d84f24d430be8ee5e444fbcd52bfd6c3c8d8ac5509e2e55c9d55237",
+      "log_index": 820,
+      "timestamp": "2026-10-29T15:37:47Z",
+      "direction": "in",
+      "link": 92789.016926446,
+      "usd_price_at_transfer": 11.907681,
+      "usd_estimate": 1104901.97
     }
   ],
   "transactions": [
@@ -1782,6 +1792,14 @@
       "link": 88443.776246102,
       "usd_estimate": 1055663.06,
       "entry_count": 1
+    },
+    {
+      "tx_hash": "0x01e6c5026d84f24d430be8ee5e444fbcd52bfd6c3c8d8ac5509e2e55c9d55237",
+      "timestamp": "2026-10-29T15:37:47Z",
+      "direction": "in",
+      "link": 92789.016926446,
+      "usd_estimate": 1104901.97,
+      "entry_count": 1
     }
   ],
   "daily": [
@@ -2323,6 +2341,13 @@
       "link_out": 0.0,
       "usd_in_estimate": 1055663.06,
       "balance_link": 6382287.133604
+    },
+    {
+      "date": "2026-10-29",
+      "link_in": 92789.016926,
+      "link_out": 0.0,
+      "usd_in_estimate": 1104901.97,
+      "balance_link": 6475076.150531
     }
   ]
 }
