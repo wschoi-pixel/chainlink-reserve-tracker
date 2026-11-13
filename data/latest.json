@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-12T20:00:52Z",
+  "updated_at": "2026-11-13T06:53:42Z",
   "reserve_address": "0x9A709B7B69EA42D5eeb1ceBC48674C69E1569eC6",
   "link_token_address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
   "market": {
-    "link_usd": 10.05,
-    "market_cap_usd": 7709806057.0,
+    "link_usd": 9.81,
+    "market_cap_usd": 7526536306.0,
     "circulating_supply_link": 766849970.424884,
     "source": "CoinGecko",
-    "quoted_at": "2026-11-12T20:00:51Z"
+    "quoted_at": "2026-11-13T06:53:42Z"
   },
   "reserve": {
     "balance_link": 6675852.540229513,
     "net_transfer_link": 6675852.540229511,
     "reconciled": true,
     "reconciliation_difference_link": 2e-09,
-    "usd_value": 67092318.03,
-    "market_cap_share_pct": 0.8702,
+    "usd_value": 65490113.42,
+    "market_cap_share_pct": 0.8701,
     "supply_share_pct": 0.8706
   },
   "history": {
@@ -31,7 +31,7 @@
     "timestamp": "2026-11-12T16:39:35Z",
     "direction": "in",
     "link": 106252.808498644,
-    "usd_estimate": 1059598.94,
+    "usd_estimate": 1059598.91,
     "entry_count": 1
   },
   "events": [
@@ -1033,7 +1033,7 @@
       "direction": "in",
       "link": 106252.808498644,
       "usd_price_at_transfer": 9.972432,
-      "usd_estimate": 1059598.94
+      "usd_estimate": 1059598.91
     }
   ],
   "transactions": [
@@ -1834,7 +1834,7 @@
       "timestamp": "2026-11-12T16:39:35Z",
       "direction": "in",
       "link": 106252.808498644,
-      "usd_estimate": 1059598.94,
+      "usd_estimate": 1059598.91,
       "entry_count": 1
     }
   ],
@@ -2396,7 +2396,7 @@
       "date": "2026-11-12",
       "link_in": 106252.808499,
       "link_out": 0.0,
-      "usd_in_estimate": 1059598.94,
+      "usd_in_estimate": 1059598.91,
       "balance_link": 6675852.54023
     }
   ]
