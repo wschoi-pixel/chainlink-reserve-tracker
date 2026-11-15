@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-14T22:33:06Z",
+  "updated_at": "2026-11-15T06:43:11Z",
   "reserve_address": "0x9A709B7B69EA42D5eeb1ceBC48674C69E1569eC6",
   "link_token_address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
   "market": {
-    "link_usd": 8.75,
-    "market_cap_usd": 6707718526.0,
+    "link_usd": 9.09,
+    "market_cap_usd": 6970536596.0,
     "circulating_supply_link": 766849970.424884,
     "source": "CoinGecko",
-    "quoted_at": "2026-11-14T22:33:06Z"
+    "quoted_at": "2026-11-15T06:43:11Z"
   },
   "reserve": {
     "balance_link": 6675852.540229513,
     "net_transfer_link": 6675852.540229511,
     "reconciled": true,
     "reconciliation_difference_link": 2e-09,
-    "usd_value": 58413709.73,
-    "market_cap_share_pct": 0.8708,
+    "usd_value": 60683499.59,
+    "market_cap_share_pct": 0.8706,
     "supply_share_pct": 0.8706
   },
   "history": {
